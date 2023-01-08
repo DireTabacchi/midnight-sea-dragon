@@ -1,0 +1,27 @@
+{
+    "name" : "Midnight Sea Dragon",
+
+    "cursorColor" : "#828b99",
+    "selectionBackground" : "#782804",
+
+    "background" : "#01040d",
+    "foreground" : "#ffffff",
+
+    "black" : "#030b1a",
+    "blue" : "#085199",
+    "cyan" : "#079299",
+    "green" : "#107306",
+    "purple" : "#990799",
+    "red" : "#800606",
+    "white" : "#828b99",
+    "yellow" : "#de591c",
+
+    "brightBlack" : "#262f3f",
+    "brightBlue" : "#2794ff",
+    "brightCyan" : "#26f8fe",
+    "brightGreen" : "#31d821",
+    "brightPurple" : "#ff27ff",
+    "brightRed" : "#e52222",
+    "brightWhite" : "#f3ffff",
+    "brightYellow" : "#f2dd00"
+}
