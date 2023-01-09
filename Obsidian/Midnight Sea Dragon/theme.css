@@ -1,0 +1,349 @@
+:root
+{
+    --dark_x: 0, 4, 13; /* #00040d */
+    --dark: rgb(var(--dark_x));
+    --light_x: 255, 255, 255; /* #ffffff */
+    --light: rgb(var(--light_x));
+
+    --black_x: 3, 11, 26;
+    --black: rgb(var(--black_x)); /* #030b1a */
+    --red_x: 128, 6, 6;
+    --red: rgb(var(--red_x)); /* #800606 */
+    --green_x: 16, 115, 6;
+    --green: rgb(var(--green_x)); /* #107306 */
+    --yellow_x: 222, 89, 28;
+    --yellow: rgb(var(--yellow_x)); /* #de591c */
+    --blue_x: 8, 81, 153;
+    --blue: rgb(var(--blue_x)); /* #085199 */
+    --purple_x: 153, 7, 153;
+    --purple: rgb(var(--purple_x)); /* #990799 */
+    --cyan_x: 7, 146, 153;
+    --cyan: rgb(var(--cyan_x)); /* #079299 */
+    --white_x: 130, 139, 153;
+    --white: rgb(var(--white_x)); /* #828b99 */
+
+    --bright-black_x: 38, 47, 63;
+    --bright-black: rgb(var(--bright-black_x)); /* #262f3f */
+    --bright-red_x: 229, 34, 34;
+    --bright-red: rgb(var(--bright-red_x)); /* #e52222 */
+    --bright-green_x: 49, 216, 33;
+    --bright-green: rgb(var(--bright-green_x)); /* #21d821 */
+    --bright-yellow_x: 242, 221, 0;
+    --bright-yellow: rgb(var(--bright-yellow_x)); /* #f2dd00 */
+    --bright-blue_x: 39, 148, 255;
+    --bright-blue: rgb(var(--bright-blue_x)); /* #2794ff */
+    --bright-purple_x: 255, 39, 255;
+    --bright-purple: rgb(var(--bright-purple_x)); /* #ff27ff */
+    --bright-cyan_x: 38, 248, 254;
+    --bright-cyan: rgb(var(--bright-cyan_x)); /* #26f8fe */
+    --bright-white_x: 243, 255, 255;
+    --bright-white: rgb(var(--bright-white_x)); /* #f3ffff */
+}
+
+.theme-dark
+{
+    --color-red-rgb: var(--bright-red_x);
+    --color-red: var(--bright-red);
+    --color-orange-rgb: var(--yellow_x);
+    --color-orange: var(--yellow);
+    --color-yellow-rgb: var(--bright-yellow_x);
+    --color-yellow: var(--bright-yellow);
+    --color-green-rgb: var(--green_x);
+    --color-green: var(--green);
+    --color-blue-rgb: var(--blue_x);
+    --color-blue: var(--blue);
+    --color-purple-rgb: (--purple_x);
+    --color-purple: var(--purple);
+    --color-cyan-rgb: var(--bright-cyan_x);
+    --color-cyan: var(--bright-cyan);
+    --color-pink-rgb: var(--bright-purple_x);
+    --color-pink: var(--bright-purple);
+
+    --background-primary: var(--dark);
+    --background-primary-alt: var(--black);
+    --background-secondary: var(--black);
+    --background-secondary-alt: var(--black);
+    --background-modifier-border: var(--white);
+    --background-modifier-hover: var(--bright-black);
+
+    --cursor-line-background: rgba(var(--bright-black_x), 0.4);
+
+    --text-normal: var(--light);
+    --text-faint: var(--white);
+    --text-muted: var(--bright-white);
+
+    --h1-color: var(--bright-red);
+    --h2-color: var(--yellow);
+    --h3-color: var(--bright-yellow);
+    --h4-color: var(--bright-green);
+    --h5-color: var(--bright-blue);
+    --h6-color: var(--bright-purple);
+
+    --text-highlight-bg: var(--bright-yellow);
+    --text-highlight-fg: var(--black);
+
+    --text-accent: var(--bright-blue);
+    --text-accent-hover: var(--bright-cyan);
+
+    --tag-color: var(--green);
+    --tag-background: var(--black);
+    /*--tag-background-hover: rgba(var(--red_x), 0.5);*/
+
+    --titlebar-text-color-focused: var(--bright-blue);
+
+    --inline-title-color: var(--blue);
+
+    --bold-color: var(--yellow);
+    --italic-color: var(--yellow);
+
+    --checkbox-color: var(--white);
+    --checkbox-color-hover: var(--bright-white);
+    --checkbox-border-color: var(--white);
+    --checkbox-border-color-hover: var(--bright-white);
+    --checklist-done-color: var(--bright-green);
+
+    --table-header-background: var(--bright-black);
+    --table-header-background-hover: var(--white);
+    --table-header-foreground-hover: var(--black);
+    --table-row-even-background: var(--black);
+    --table-row-odd-background: var(--dark);
+    --table-row-background-hover: var(--white);
+    --table-row-foreground-hover: var(--black);
+
+    --text-selection: rgba(var(--yellow_x), 0.5);
+    
+    --code-normal: var(--bright-white);
+    --code-background: var(--black);
+
+    --mermaid-note: var(--red);
+    --mermaid-actor: var(--red);
+    --mermaid-loopline: var(--red);
+
+    --icon-color-hover: var(--bright-blue);
+    --icon-color-focused: var(--bright-blue);
+
+    --blockquote-background-color: var(--black);
+    --blockquote-border-color: var(--cyan);
+    --embed-border-left: 2px solid var(--bright-cyan);
+
+    --tab-text-color: var(--blue);
+    --tab-text-color-active: var(--bright-blue);
+    --tab-text-color-focused: var(--blue);
+    --tab-text-color-focused-active: var(--bright-blue);
+    --tab-text-color-focused-active-current: var(--bright-blue);
+    --tab-divider-color: var(--white);
+
+    --nav-item-color: var(--bright-white);
+    --nav-item-color-hover: var(--bright-green);
+    --nav-item-color-active: var(--bright-blue);
+    --nav-item-background-hover: var(--bright-black);
+    --nav-item-background-active: var(--bright-black);
+}
+
+table
+{
+    border: 1px solid var(--background-secondary) !important;
+    border-collapse: collapse;
+}
+
+thead
+{
+    border-bottom: 2px solid var(--background-modifier-border) !important;
+}
+  
+th
+{
+    font-weight: 600 !important;
+    border: 1px solid var(--background-secondary) !important;
+}
+
+td
+{
+    border-left: 1px solid var(--background-secondary) !important;
+    border-right: 1px solid var(--background-secondary) !important;
+    border-bottom: 1px solid var(--background-secondary) !important;
+}
+
+.markdown-rendered tbody tr:nth-child(even)
+{
+    background-color: var(--table-row-even-background) !important;
+}
+
+.markdown-rendered tbody tr:nth-child(odd)
+{
+    background-color: var(--table-row-odd-background) !important;
+}
+
+.markdown-rendered thead tr:hover
+{
+    color: var(--table-header-foreground-hover) !important;
+}
+
+.markdown-rendered tbody tr:nth-child(even):hover,
+.markdown-rendered tbody tr:nth-child(odd):hover
+{
+    color: var(--table-row-foreground-hover) !important;
+    background-color: var(--table-row-background-hover) !important;
+}
+
+.markdown-rendered mark
+{
+    background-color: var(--text-highlight-bg) !important;
+    color: var(--text-highlight-fg) !important;
+}
+
+.markdown-rendered mark a
+{
+    color: var(--red) !important;
+    font-weight: 600;
+}
+
+.search-result-file-matched-text
+{
+    color: var(--text-highlight-fg) !important;
+}
+
+.cm-hashtag-begin:hover, .cm-hashtag-end:hover
+{
+    color: var(--text-accent);
+    /* background-color: var(--tag-background-hover); */
+    text-decoration: underline;
+}
+
+input[type=checkbox]
+{
+    border: 1px solid var(--checkbox-color);
+}
+
+input[type=checkbox]:checked
+{
+    background-color: var(--checkbox-color);
+    box-shadow: inset 0 0 0 2px var(--background-primary);
+}
+
+input[type=checkbox]:checked:after
+{
+    display: none;
+}
+
+code[class*="language-"],
+pre[class*="language-"]
+{
+    line-height: var(--line-height-tight) !important;
+}
+
+/* Keep highlight/marks the same between viewer and editor. */
+.cm-highlight
+{
+    color: var(--text-highlight-fg) !important;
+}
+
+/* Keep inline code the same between viewer and editor. */
+.cm-inline-code
+{
+    border-radius: var(--radius-s);
+    font-size: var(--code-size);
+    padding: 0.1em 0.25em;
+}
+
+/* Keep list bullet padding the same between viewer and editor. */
+.cm-formatting-list
+{
+    padding-right: 4px !important;
+}
+
+/*
+ * Keep sub-list indenting the same between viewer and editor.
+ * This assumes --list-indent is default at 2em.
+ */
+/*
+.cm-indent 
+{
+    text-indent: 1em !important;
+}
+*/
+
+.mermaid .note
+{
+    fill: var(--mermaid-note) !important;
+}
+
+.mermaid .actor
+{
+    fill: var(--mermaid-actor) !important;
+}
+
+.mermaid .loopLine
+{
+    stroke: var(--mermaid-loopline) !important;
+}
+
+.calendar .week-num
+{
+    color: var(--calendar-week) !important;
+}
+
+.calendar .today
+{
+    color: var(--calendar-today) !important;
+}
+
+.calendar .week-num:hover,
+.calendar .day:hover
+{
+    color: var(--calendar-hover) !important;
+    background-color: var(--calendar-background-hover) !important;
+}
+
+.markdown-embed-title
+{
+    color: var(--yellow);
+    font-weight: 600 !important;
+}
+
+.cm-active
+{
+    background-color: var(--cursor-line-background) !important;
+}
+
+.nav-file-tag
+{
+    color: var(--nav-file-tag) !important;
+}
+
+.is-flashing
+{
+    background-color: var(--flashing-background) !important;
+}
+
+.dataview.inline-field-key
+{
+    border-top-left-radius: var(--radius-s);
+    border-bottom-left-radius: var(--radius-s);
+    padding-left: 4px;
+    font-family: var(--font-monospace);
+    font-size: var(--font-smaller);
+    color: var(--dataview-key) !important;
+    background-color: var(--dataview-key-background) !important;
+}
+
+.dataview.inline-field-value
+{
+    border-top-right-radius: var(--radius-s);
+    border-bottom-right-radius: var(--radius-s);
+    padding-right: 4px;
+    font-family: var(--font-monospace);
+    font-size: var(--font-smaller);
+    color: var(--dataview-value) !important;
+    background-color: var(--dataview-value-background) !important;
+}
+
+.suggestion-highlight
+{
+    color: var(--bright-red);
+}
+
+.cm-fat-cursor {
+    color: var(--black) !important;
+    background-color: var(--white) !important;
+}
