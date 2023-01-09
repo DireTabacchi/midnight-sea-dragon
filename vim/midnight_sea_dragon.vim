@@ -1,7 +1,7 @@
 " /------------------------------------------------------------------\
 " Name:			Midnight Sea Dragon
-" Author:		Nathaniel Tabacchi
-" Maintainer:	Nathaniel Tabacchi
+" Author:		Dire Dragon	
+" Maintainer:	Dire Dragon
 " Last Change:	2023 01 08
 " \------------------------------------------------------------------/
 
