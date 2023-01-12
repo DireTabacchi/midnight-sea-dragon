@@ -347,3 +347,14 @@ pre[class*="language-"]
     color: var(--black) !important;
     background-color: var(--white) !important;
 }
+
+.cm-vim-panel {
+    background-color: var(--black);
+}
+
+.cm-vim-panel input, .cm-vim-panel input[type='text'] {
+    background-color: var(--black);
+    box-shadow: none;
+    border: none;
+    border-color: none;
+}
