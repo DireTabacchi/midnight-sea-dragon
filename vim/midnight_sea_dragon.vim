@@ -1,7 +1,7 @@
 " /------------------------------------------------------------------\
 " Name:			Midnight Sea Dragon
-" Author:		Dire Dragon	
-" Maintainer:	Dire Dragon
+" Author:		Nathaniel Tabacchi
+" Maintainer:	Nathaniel Tabacchi
 " Last Change:	2023 01 08
 " \------------------------------------------------------------------/
 
@@ -208,7 +208,7 @@ call s:HL('Comment', s:white[0], s:none)
 
 " Generic Constants
 call s:HL('Constant', s:green[1])
-call s:HL('String', s:magenta[0])
+call s:HL('String', s:green[1])
 call s:HL('Character', s:yellow[1])
 call s:HL('Number', s:green[1])
 
