@@ -5,8 +5,8 @@
 
 # UI Theming =========================================================
 
-"ui.background" = "dark0"
-"ui.background.separator" = "light-black"
+"ui.background" = {bg = "dark0"}
+"ui.background.separator" = {fg = "blue", bg = "black"}
 "ui.selection" = {fg = "dark0", bg = "orange"}
 "ui.cursor" = {fg = "dark0", bg = "color-cursor"}
 "ui.cursor.insert" = {fg = "dark0", bg = "color-cursor"}
@@ -30,7 +30,7 @@
 "ui.text" = "light0"
 "ui.text.focus" = "light0"
 # What does this actually change?
-#"ui.text.inactive" = {fg = "red", bg = "purple"}
+"ui.text.inactive" = {fg = "red", bg = "purple"}
 "ui.text.info" = {fg = "white", bg = "black"}
 "ui.virtual.ruler" = {fg = "light0", bg = "light-black"}
 "ui.virtual.whitespace" = {modifiers = ["hidden"]}
@@ -53,6 +53,8 @@
 "diagnostic.info" = {modifiers = ["underlined"]}
 "diagnostic.hint" = {modifiers = ["underlined"]}
 
+"markup.normal" = {fg = "red", bg = "yellow"}
+
 # End UI Theming =====================================================
 
 # Syntax Highlighting ================================================
@@ -71,7 +73,7 @@
 "comment" = "white"
 "variable" = "blue"
 "label" = "light-yellow"
-"punctuation" = "white"
+"punctuation" = "light-white"
 "keyword" = "light-red"
 "operator" = "white"
 "function" = "yellow"
