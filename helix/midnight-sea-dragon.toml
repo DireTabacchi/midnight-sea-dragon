@@ -38,7 +38,7 @@
 "ui.menu" = {fg = "white", bg = "dark1"}
 "ui.menu.selected" = {fg = "light-white", bg = "light-orange"}
 "ui.menu.scroll" = {fg = "white", bg = "dark3"}
-"ui.selection.primary" = {fg = "dark0", bg = "orange"}
+"ui.selection.primary" = {fg = "dark0", bg = "light-orange"}
 "ui.cursorline.primary" = {fg = "", bg = "dark1"}
 "ui.cursorline.secondary" = {fg = "", bg = "dark1"}
 "ui.cursorcolumn.primary" = {fg = "", bg = "dark1"}
@@ -53,6 +53,24 @@
 "diagnostic.info" = {modifiers = ["underlined"]}
 "diagnostic.hint" = {modifiers = ["underlined"]}
 
+# Markup -------------------------------------------------------------
+
+"markup.heading.marker" = "white"
+"markup.heading.1" = {fg = "light-red", modifiers = ["bold"]}
+"markup.heading.2" = {fg = "yellow", modifiers = ["bold"]}
+"markup.heading.3" = {fg = "light-yellow", modifiers = ["bold"]}
+"markup.heading.4" = {fg = "light-green", modifiers = ["bold"]}
+"markup.heading.5" = {fg = "light-blue", modifiers = ["bold"]}
+"markup.heading.6" = {fg = "light-purple", modifiers = ["bold"]}
+"markup.list" = "white"
+"markup.bold" = {fg = "light-blue", modifiers = ["bold"]}
+"markup.italic" = {fg = "light-green", modifiers = ["italic"]}
+"markup.link" = "light-cyan"
+"markup.link.url" = "light-cyan"
+"markup.link.label" = "light-blue"
+"markup.link.text" = "light-blue"
+"markup.quote" = "blue"
+"markup.raw" = {fg = "blue", bg = "dark1"}
 "markup.normal" = {fg = "red", bg = "yellow"}
 
 # End UI Theming =====================================================
@@ -63,7 +81,6 @@
 #   attribute
 #   sub-groups if any
 #   tag
-#   markup
 
 "attribute" = "red"
 "type" = "cyan"
