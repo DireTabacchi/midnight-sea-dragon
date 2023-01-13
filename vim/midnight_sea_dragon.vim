@@ -1,8 +1,8 @@
 " /------------------------------------------------------------------\
 " Name:			Midnight Sea Dragon
-" Author:		Dire Dragon	
-" Maintainer:	Dire Dragon
-" Last Change:	2023 01 08
+" Author:		DireTabacchi
+" Maintainer:	DireTabacchi
+" Last Change:	2023 01 12
 " \------------------------------------------------------------------/
 
 " Initialization: {{{
@@ -139,7 +139,7 @@ hi! link CursorColumn CursorLine
 " TODO: TabLine
 
 " Match paired brackets under the cursor
-call s:HL('MatchParen', s:contrast_fg, s:white[0], s:bold)
+call s:HL('MatchParen', s:orange[1], s:black[1], s:bold)
 
 " Highlighted screen columns
 call s:HL('ColorColumn', s:none, s:black[1])
@@ -208,7 +208,7 @@ call s:HL('Comment', s:white[0], s:none)
 
 " Generic Constants
 call s:HL('Constant', s:green[1])
-call s:HL('String', s:magenta[0])
+call s:HL('String', s:green[1])
 call s:HL('Character', s:yellow[1])
 call s:HL('Number', s:green[1])
 
