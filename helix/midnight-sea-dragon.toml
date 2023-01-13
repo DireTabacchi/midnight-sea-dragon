@@ -1,0 +1,118 @@
+# Name:         Midnight Sea Dragon
+# Author:       DireTabacchi
+# Maintainer:   DireTabacchi
+# Last change:  2023 01 12
+
+# UI Theming =========================================================
+
+"ui.background" = "dark0"
+"ui.background.separator" = "light-black"
+"ui.selection" = {fg = "dark0", bg = "orange"}
+"ui.cursor" = {fg = "dark0", bg = "color-cursor"}
+"ui.cursor.insert" = {fg = "dark0", bg = "color-cursor"}
+"ui.cursor.select" = {fg = "dark0", bg = "light-orange"}
+"ui.cursor.match" = {fg = "orange", bg = "light-black"}
+#"ui.cursor.primary" = {fg = "dark0", bg = "color-cursor"}
+"ui.gutter" = {fg = "white", bg = "black"}
+"ui.gutter.selected" = {fg = "light-white", bg = "light-black"}
+"ui.linenr" = {fg = "white", bg = "black"}
+"ui.linenr.selected" = {fg = "yellow", bg = "light-black"}
+"ui.statusline" = {fg = "light0", bg = "light-black"}
+"ui.statusline.inactive" = {fg = "white", bg = "black"}
+"ui.statusline.normal" = {fg = "light0", bg = "light-black"}
+"ui.statusline.insert" = {fg = "dark0", bg = "light-green"}
+"ui.statusline.select" = {fg = "dark0", bg = "light-orange"}
+"ui.statusline.separator" = {fg = "white", bg = "black"}
+"ui.popup" = {fg = "white", bg = "light-black"}
+"ui.popup.info" = {fg = "blue", bg = "black"}
+"ui.window" = {fg = "white", bg = "light-black"}
+"ui.help" = {fg = "blue", bg = "black"}
+"ui.text" = "light0"
+"ui.text.focus" = "light0"
+# What does this actually change?
+#"ui.text.inactive" = {fg = "red", bg = "purple"}
+"ui.text.info" = {fg = "white", bg = "black"}
+"ui.virtual.ruler" = {fg = "light0", bg = "light-black"}
+"ui.virtual.whitespace" = {modifiers = ["hidden"]}
+"ui.virtual.indent-guide" = {fg = "dark3", bg = "dark0"}
+"ui.menu" = {fg = "white", bg = "dark1"}
+"ui.menu.selected" = {fg = "light-white", bg = "light-orange"}
+"ui.menu.scroll" = {fg = "white", bg = "dark3"}
+"ui.selection.primary" = {fg = "dark0", bg = "orange"}
+"ui.cursorline.primary" = {fg = "", bg = "dark1"}
+"ui.cursorline.secondary" = {fg = "", bg = "dark1"}
+"ui.cursorcolumn.primary" = {fg = "", bg = "dark1"}
+"ui.cursorcolumn.secondary" = {fg = "", bg = "dark1"}
+"error" = {fg = "light-red", bg = "black"}
+"warning" = {fg = "light-yellow", bg = "black"}
+"info" = {fg = "light-cyan", bg = "black"}
+"hint" = {fg = "light-cyan", bg = "black"}
+"diagnostic" = {fg = "white", bg = "dark1", modifiers = ["underlined"]}
+"diagnostic.error" = {fg = "dark0", bg = "light-red"}
+"diagnostic.warning" = {fg = "light-yellow", bg = "dark1", modifiers = ["underlined"]}
+"diagnostic.info" = {modifiers = ["underlined"]}
+"diagnostic.hint" = {modifiers = ["underlined"]}
+
+# End UI Theming =====================================================
+
+# Syntax Highlighting ================================================
+
+# TODO:
+#   attribute
+#   sub-groups if any
+#   tag
+#   markup
+
+"attribute" = "red"
+"type" = "cyan"
+"constructor" = "yellow"
+"constant" = "light-green"
+"string" = "light-green"
+"comment" = "white"
+"variable" = "blue"
+"label" = "light-yellow"
+"punctuation" = "white"
+"keyword" = "light-red"
+"operator" = "white"
+"function" = "yellow"
+"tag" = "red"
+"namespace" = "green"
+"special" = "light-purple"
+
+# End Syntax Highlighting ============================================
+
+# Palette ============================================================
+
+[palette]
+# Sixteen-Color Palette ----------------------------------------------
+# Dark Colors
+black =     "#030b1a"
+red =       "#800606"
+green =     "#107306"
+yellow =    "#de591c"
+blue =      "#085199"
+purple =    "#990799"
+cyan =      "#079299"
+white =     "#828b99"
+
+# Light Colors
+light-black =   "#262f3f"
+light-red =     "#e52222"
+light-green =   "#31d821"
+light-yellow =  "#f2dd00"
+light-blue =    "#2794ff"
+light-purple =  "#ff27ff"
+light-cyan =    "#26f8fe"
+light-white =   "#f3ffff"
+
+# Other Color Definitions --------------------------------------------
+dark0 = "#01040d"
+dark1 = "#071126"
+dark2 = "#0c1933"
+dark3 = "#0d2640"
+light0 = "#ffffff"
+color-cursor = "#828b99"
+orange = "#782804"
+light-orange = "#ab420a"
+
+# End Palette ========================================================
