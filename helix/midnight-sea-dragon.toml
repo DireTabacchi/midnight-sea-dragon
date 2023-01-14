@@ -47,9 +47,10 @@
 "warning" = {fg = "light-yellow", bg = "black"}
 "info" = {fg = "light-cyan", bg = "black"}
 "hint" = {fg = "light-cyan", bg = "black"}
-"diagnostic" = {fg = "white", bg = "dark1", modifiers = ["underlined"]}
-"diagnostic.error" = {fg = "dark0", bg = "light-red"}
-"diagnostic.warning" = {fg = "light-yellow", bg = "dark1", modifiers = ["underlined"]}
+"diagnostic" = {bg = "dark0", modifiers = ["underlined"]}
+# Uncomment diagnostic.error and diagnostic.warning for agressive diagnostics
+#"diagnostic.error" = {fg = "dark0", bg = "light-red"}
+#"diagnostic.warning" = {fg = "light-yellow", bg = "dark1", modifiers = ["underlined"]}
 "diagnostic.info" = {modifiers = ["underlined"]}
 "diagnostic.hint" = {modifiers = ["underlined"]}
 
@@ -79,21 +80,43 @@
 
 # TODO:
 #   attribute
-#   sub-groups if any
 #   tag
 
 "attribute" = "red"
+
+# Types
 "type" = "cyan"
-"constructor" = "yellow"
-"constant" = "light-green"
-"string" = "light-green"
-"comment" = "white"
-"variable" = "blue"
-"label" = "light-yellow"
-"punctuation" = "light-white"
-"keyword" = "light-red"
-"operator" = "white"
+"type.builtin" = "light-cyan"
+
+# Function related
+"constructor" = "cyan"
 "function" = "yellow"
+
+# Constants
+"constant" = "light-green"
+"constant.builtin" = "light-purple"
+"constant.character" = "light-yellow"
+"constant.character.escape" = "light-yellow"
+"constant.numeric" = "light-green"
+"string" = "light-green"
+
+# Comments
+"comment" = "white"
+"comment.block" = "light-orange"
+
+"variable" = "light-blue"
+"label" = "light-yellow"
+
+# Punctuation
+"punctuation" = "light-white"
+
+# Keywords
+"keyword" = "light-red"
+"keyword.storage.modifier.mut" = "light-purple"
+"keyword.storage.modifier.ref" = "light-yellow"
+"keyword.directive" = "purple"
+
+"operator" = "light-yellow"
 "tag" = "red"
 "namespace" = "green"
 "special" = "light-purple"
