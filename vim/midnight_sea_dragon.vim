@@ -2,7 +2,7 @@
 " Name:			Midnight Sea Dragon
 " Author:		DireTabacchi
 " Maintainer:	DireTabacchi
-" Last Change:	2023 01 12
+" Last Change:	2023 01 15
 " \------------------------------------------------------------------/
 
 " Initialization: {{{
@@ -214,25 +214,25 @@ call s:HL('Number', s:green[1])
 
 " Generic Identifiers
 call s:HL('Identifier', s:blue[0])
-call s:HL('Function', s:yellow[0], s:none, s:bold)
+call s:HL('Function', s:yellow[0])
 
 " Generic Statements
 call s:HL('Statement', s:red[0])
 call s:HL('Conditional', s:red[1])
 call s:HL('Repeat', s:red[1])
 call s:HL('Label', s:red[1])
-call s:HL('Operator' , s:white[0])
+call s:HL('Operator' , s:yellow[1])
 call s:HL('Keyword', s:red[1])
 
 " Generic Pre-processors
-call s:HL('PreProc', s:magenta[1])
-call s:HL('Include', s:green[0])
+call s:HL('PreProc', s:magenta[0])
+call s:HL('Include', s:magenta[0])
 hi! link Define Include
 call s:HL('Macro', s:yellow[0])
 hi! link PreCondit Include
 
 " Generic Types
-call s:HL('Type', s:cyan[0])
+call s:HL('Type', s:cyan[1])
 call s:HL('StorageClass', s:blue[1])
 call s:HL('Structure', s:blue[1])
 
@@ -264,22 +264,25 @@ call s:HL('hsVarSym', s:magenta[1])
 call s:HL('rustIdentifier', s:green[1])
 call s:HL('rustStructure', s:blue[1])
 call s:HL('rustFuncCall', s:blue[0])
-call s:HL('rustOperator', s:white[0])
+call s:HL('rustOperator', s:yellow[1])
 "call s:HL('rustPubScope', s:orange[0])
 "call s:HL('rustExternCrateString', s:yellow[0])
 call s:HL('rustDerive', s:yellow[1])
 "call s:HL('rustCommentBlock', s:yellow[0])
 "call s:HL('rustGenericRegion', s:green[1])
-call s:HL('rustStorage', s:magenta[0])
+call s:HL('rustStorage', s:magenta[1])
+call s:HL('rustType', s:cyan[1])
+call s:HL('rustTrait', s:cyan[0])
+call s:HL('rustAttribute', s:magenta[0])
 
 " }}}
 " Markdown: {{{
 
-call s:HL('markdownH1', s:red[0], s:none, s:bold)
-call s:HL('markdownH2', s:orange[1], s:none, s:bold)
-call s:HL('markdownH3', s:yellow[0], s:none, s:bold)
-call s:HL('markdownH4', s:green[0], s:none, s:bold)
-call s:HL('markdownH5', s:blue[0], s:none, s:bold)
+call s:HL('markdownH1', s:red[1], s:none, s:bold)
+call s:HL('markdownH2', s:yellow[0], s:none, s:bold)
+call s:HL('markdownH3', s:yellow[1], s:none, s:bold)
+call s:HL('markdownH4', s:green[1], s:none, s:bold)
+call s:HL('markdownH5', s:blue[1], s:none, s:bold)
 call s:HL('markdownH6', s:magenta[1], s:none, s:bold)
 
 call s:HL('markdownBlockQuote',s:green[1], s:none, s:italic)
