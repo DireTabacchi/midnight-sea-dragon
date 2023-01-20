@@ -1,0 +1,465 @@
+{
+	"name": "Midnight Sea Dragon",
+	"type": "dark",
+	"semanticHighlighting": true,
+	"colors": {
+		// Base Colors ===============================================
+		"focusBorder": "#00000000",
+		"foreground": "#ffffff",
+		"disabledForeground": "#dadde6",
+		"widget.shadow": "#131b33",
+		// TODO: "selection.background": "#2c344d",
+		// TODO: "descriptionForeground": "#ff0000",
+		// TODO: "errorForeground": "#e522ff",
+		"icon.foreground": "#7a8299",
+		// TODO: "sash.hoverBorder": "#ff0000",
+
+		// Window Border =============================================
+		// TODO: "window.activeBorder": "#ff0000",
+		// TODO: "window.inactiveBorder": "#ff0000",
+
+		// Text Colors ===============================================
+		"textBlockQuote.background": "#2c344d",
+		"textBlockQuote.border": "#079299",
+		// TODO: "textCodeBlock.background": "#ff0000",
+		"textLink.activeForeground": "#26f8fe",
+		"textLink.foreground": "#2794ff",
+		"textPreformat.foreground": "#d95316",
+		// TODO: "textSeparator.foreground": "#ff0000",
+
+		// Action Colors ==============================================
+		"toolbar.hoverBackground": "#2c344d",
+		// TODO: "toolbar.hoverOutline": "#ff0000",
+		// TODO: "toolbar.activeBackground": "#ff0000",
+
+		// Button Control ============================================
+		"button.background": "#bf5726",
+		"button.foreground": "#ffffff",
+		"button.border": "#00000000",
+		"button.separator": "#1f2740",
+		"button.hoverBackground": "#d95316",
+		// TODO: "button.secondaryForeground": "#ff0000",
+		// TODO: "button.secondaryBackground": "#ff0000",
+		// TODO: "button.secondaryHoverBackground": "#ff0000",
+		// TODO: "checkbox.background": "#ff0000",
+		// TODO: "checkbox.foreground": "#ff0000",
+		// TODO: "checkbox.border": "#ff0000",
+		// TODO: "checkbox.selectBackground": "#ff0000",
+		// TODO: "checkbox.selectBorder": "#ff0000",
+
+		// Dropdown Controll =========================================
+		"dropdown.background": "#1f2740",
+		"dropdown.listBackground": "#1f2740",
+		"dropdown.border": "#131b33",
+		"dropdown.foreground": "#dadde6",
+		
+		// TODO: Input Control =============================================
+
+		// TODO: Scrollbar Control =========================================
+
+		// Badge =====================================================
+		"badge.foreground": "#dadde6",
+		"badge.background": "#1f2740",
+
+		// TODO: Progress Bar ==============================================
+		"progressBar.background": "#bf5726",
+
+		// TODO: Lists and Trees ===========================================
+
+		// TODO: Activity Bar ==============================================
+		"activityBar.background": "#0b1226",
+
+		// TODO: Side Bar ==================================================
+		"sideBar.background": "#050a1a",
+
+		// TODO: Minimap ===================================================
+
+		// TODO: Editor Groups & Tabs ======================================
+
+		// TODO: Editor Colors =============================================
+		"editor.background": "#01040d",
+		"editor.foreground": "#ffffff",
+
+		// TODO: Diff Editor Colors ========================================
+
+		// TODO: Editor Widget Colors ======================================
+
+		// TODO: Peek View Colors ==========================================
+
+		// TODO: Merge Conflicts Colors ====================================
+
+		// TODO: Panel Colors ==============================================
+
+		// TODO: Status Bar Colors =========================================
+
+		// TODO: Title Bar Colors ==========================================
+
+		// TODO: Menu Bar Colors ===========================================
+
+		// TODO: Command Center Colors =====================================
+
+		// TODO: Notification Colors =======================================
+
+		// TODO: Banner Colors =============================================
+
+		// TODO: Extensions Colors =========================================
+
+		// TODO: Quick Picker Colors =======================================
+
+		// TODO: Keybinding Label Colors ===================================
+
+		// TODO: Keyboard Shortcut Table Colors ============================
+
+		// TODO: Integrated Terminal Colors ================================
+
+		// TODO: Debug Colors ==============================================
+
+		// TODO: Testing Colors ============================================
+
+		// TODO: Welcome Page Colors =======================================
+
+		// TODO: Source Control Colors =====================================
+
+		// TODO: Git Colors ================================================
+
+		// TODO: Settings Editor Colors ====================================
+
+		// TODO: Breadcrumbs Colors ========================================
+
+		// TODO: Snippets Colors ===========================================
+
+		// TODO: Symbol Icons Colors =======================================
+
+		// TODO: Debug Icons Colors ========================================
+
+		// TODO: Notebook Colors ===========================================
+
+		// TODO: chart Colors ==============================================
+
+		// TODO: Ports Colors ==============================================
+	},
+	// TODO: Syntax Highlighting ===========================================
+	// TODO: invalid
+	"tokenColors": [
+		// Comments
+		{
+			"scope": [
+				"comment.line",
+				"comment.block",
+			],
+			"settings": {
+				"foreground": "#828b99",
+			},
+		},
+		{
+			"scope": [
+				"comment.line.documentation"
+			],
+			"settings": {
+				"foreground": "#f2dd00",
+			}
+		},
+		// Constants
+		{
+			"scope": [
+				"constant",
+				"constnat.numeric"
+			],
+			"settings": {
+				"foreground": "#ff27ff",
+			},
+		},
+		{
+			"scope": [
+				"constant.character"
+			],
+			"settings": {
+				"foreground": "#f2dd00",
+			}
+		},
+		{
+			"scope": [
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#107306",
+			}
+		},
+		// TODO: Entity
+		{
+			"scope": [
+				"entity.name.type.struct",
+				"entity.name.type.enum",
+				"entity.name.type.trait", // TODO: this is rust
+			],
+			"settings": {
+				"foreground": "#31d821",
+			}
+		},
+		{
+			"scope": [
+            	"entity.name.type",
+			],
+			"settings": {
+				"foreground": "#079299",
+			},
+		},
+		{
+			"scope": [
+				"entity.name.function",
+			],
+			"settings": {
+				"foreground": "#2794ff",
+			},
+		},
+		{
+			"scope": [
+				"entity.name.function.macro"
+			],
+			"settings": {
+				"foreground": "#de691c",
+			},
+		},
+
+		// Keywords
+		{
+			"scope": [
+				"keyword"
+			],
+			"settings": {
+				"foreground": "#e52222",
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator",
+			],
+			"settings": {
+				"foreground": "#f2dd00",
+			},
+		},
+		{
+			"scope": [
+				"keyword.operator.namespace"
+			],
+			"settings": {
+				"foreground": "#de591c",
+			},
+		},
+		// TODO: markup
+		// TODO: storage
+		{
+			"scope": [
+				"storage.type"
+			],
+			"settings": {
+				"foreground": "#26f8fe",
+			}
+		},
+		{
+			"scope": [
+				"storage.type.enum",
+				"storage.modifier.reference"
+			],
+			"settings": {
+				"foreground": "#2794ff",
+			}
+		},
+		{
+			"scope": [
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#990799",
+			},
+		},
+		// Strings
+		{
+			"scope": [
+				"string",
+				"string.quoted.double"
+			],
+			"settings": {
+				"foreground": "#31d821",
+			},
+		},
+		{
+			"scope": [
+				"string.quoted.single",
+				"string.regexp",
+			],
+			"settings": {
+				"foreground": "#f2dd00",
+			},
+		},
+		// TODO: Support
+
+		// Variables
+		{
+			"scope": [
+				"variable.language"
+			],
+			"settings": {
+				"foreground": "#107306",
+			},
+		},
+
+		// Language Specific
+		// TODO: Zig
+		{
+			"scope": [
+				"support.function.builtin.zig"
+			],
+			"settings": {
+				"foreground": "#de591c",
+			},
+		},
+		{
+			"scope": [
+				"keyword.constant.bool.zig"
+			],
+			"settings": {
+				"foreground": "#107306",
+			},
+		},
+		{
+			"scope": [
+				"keyword.type.zig",
+				"keyword.type.integer.zig"
+			],
+			"settings": {
+				"foreground": "#26f8fe",
+			},
+		},
+		{
+			"scope": [
+				"keyword.constant.default.zig"
+			],
+			"settings": {
+				"foreground": "#990799",
+			},
+		},
+		{
+			"scope": [
+				"storage.type.function.zig"
+			],
+			"settings": {
+				"foreground": "#e52222",
+			},
+		},
+		{
+			"scope": [
+				"keyword.structure.zig"
+			],
+			"settings": {
+				"foreground": "#2794ff",
+			},
+		},
+		{
+			"scope": [
+				"keyword.default.zig",
+			],
+			"settings": {
+				"foreground": "#1470cc",
+			},
+		},
+
+		// Rust
+		{
+			"scope": [
+				"keyword.operator.borrow",
+				"keyword.declaration"
+			],
+			"settings": {
+				"foreground": "#2794ff",
+			}
+		},
+		{
+			"scope": [
+				"storage.type.rust"
+			],
+			"settings": {
+				"foreground": "#2794ff",
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.numeric",
+				"entity.name.type.primitive"
+			],
+			"settings": {
+				"foreground": "#26f8fe",
+			},
+		},
+		{
+			"scope": [
+				"entity.name.namespace"
+			],
+			"settings": {
+				"foreground": "#079299",
+			},
+		},
+		{
+			"scope": [
+				"punctuation.definition.interpolation"
+			],
+			"settings": {
+				"foreground": "#107306",
+			},
+		},
+		{
+			"scope": [
+				"punctuation.brackets.angle.rust"
+			],
+			"settings": {
+				"foreground": "#f2dd00",
+			},
+		},
+
+		// C/C++
+		{
+			"scope": [
+				"punctuation.separator.pointer-access",
+				"punctuation.separator.scope-resolution"
+			],
+			"settings": {
+				"foreground": "#de591c",
+			},
+		},
+		{
+			"scope": [
+				"entity.name.scope-resolution"
+			],
+			"settings": {
+				"foreground": "#079299",
+			},
+		},
+		{
+			"scope": [
+				"keyword.operator.delete"
+			],
+			"settings": {
+				"foreground": "#800606",
+			},
+		},
+		{
+			"scope": [
+				"entity.name.function.preprocessor",
+				"keyword.control.directive",
+				"keyword.other.using"
+			],
+			"settings": {
+				"foreground": "#990799",
+			},
+		},
+		{
+			"scope": [
+				"storage.type.class",
+				"storage.type.template.argument"
+			],
+			"settings": {
+				"foreground": "#2794ff",
+			},
+		},
+	]
+}

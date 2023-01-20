@@ -1,0 +1,48 @@
+dark0 = 01040d
+dark1 = 050a1a
+dark2 = 0b1226
+dark3 = 131b33
+dark4 = 1f2740
+dark5 = 2c344d
+
+light0 = ffffff
+light1 = dadde6
+light2 = b8bdcc
+light3 = 989eb3
+light4 = 7a8299
+light5 = 606880
+
+orange = bf5726
+light-orange = d95316
+
+# Dark Colors
+black =     "#030b1a"
+red =       "#800606"
+green =     "#107306"
+yellow =    "#de591c"
+blue =      "#1470CC"
+purple =    "#990799"
+cyan =      "#079299"
+white =     "#828b99"
+
+1369BF
+
+# Light Colors
+light-black =   "#262f3f"
+light-red =     "#e52222"
+light-green =   "#31d821"
+light-yellow =  "#f2dd00"
+light-blue =    "#2794ff"
+light-purple =  "#ff27ff"
+light-cyan =    "#26f8fe"
+light-white =   "#f3ffff"
+
+token template:
+{
+	"scope": [
+
+	],
+	"settings": {
+		"foreground": "#",
+	},
+},

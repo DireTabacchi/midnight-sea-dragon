@@ -89,7 +89,6 @@
 "type.builtin" = "light-cyan"
 
 # Function related
-"constructor" = "cyan"
 "function" = "yellow"
 
 # Constants
@@ -155,6 +154,6 @@ dark3 = "#0d2640"
 light0 = "#ffffff"
 color-cursor = "#828b99"
 orange = "#782804"
-light-orange = "#ab420a"
+light-orange = "#d95316"
 
 # End Palette ========================================================
