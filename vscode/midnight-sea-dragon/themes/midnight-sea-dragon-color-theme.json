@@ -368,6 +368,14 @@
 			},
 		},
 		// TODO: Support
+		{
+			"scope": [
+				"support.type"
+			],
+			"settings": {
+				"foreground": "#079299"
+			},
+		},
 
 		// Variables
 		{
