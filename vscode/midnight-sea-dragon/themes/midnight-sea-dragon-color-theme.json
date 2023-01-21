@@ -82,8 +82,15 @@
 		//"activityBarItem.profilesBackground": "#ff0000",
 		//"activityBarItem.profilesHoverForeground": "#ff0000",
 
-		// TODO: Side Bar ==================================================
+		// Side Bar ==================================================
 		"sideBar.background": "#050a1a",
+		"sideBar.foreground": "#dadde6",
+		"sideBar.border": "#01040d",
+		"sideBar.dropBackground": "#2c344d7f",
+		"sideBarTitle.foreground": "#dadde6",
+		"sideBarSectionHeader.background": "#01040d",
+		"sideBarSectionHeader.foreground": "#ffffff",
+		"sideBarSectionHeader.border": "#01040d",
 
 		// TODO: Minimap ===================================================
 
