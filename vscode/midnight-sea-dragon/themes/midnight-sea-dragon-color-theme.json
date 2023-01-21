@@ -99,7 +99,17 @@
 		"titleBar.inactiveForeground": "#b8bdcc",
 		"titleBar.border": "#0b1226",
 
-		// TODO: Menu Bar Colors ===========================================
+		// Menu Bar Colors ===========================================
+		"menubar.selectionBackground": "#1f2740",
+		"menubar.selectionForeground": "#b8bdcc",
+		"menubar.selectionBorder": "#1f2740",
+		"menu.background": "#1f2740",
+		"menu.foreground": "#ffffff",
+		"menu.selectionForeground": "#dadde6",
+		"menu.selectionBackground": "#2c344d",
+		"menu.selectionBorder": "#2c344d",
+		"menu.separatorBackground": "#131b33",
+		"menu.border": "#131b33",
 
 		// TODO: Command Center Colors =====================================
 
