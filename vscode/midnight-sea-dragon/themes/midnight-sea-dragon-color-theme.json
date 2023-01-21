@@ -74,7 +74,47 @@
 
 		// TODO: Minimap ===================================================
 
-		// TODO: Editor Groups & Tabs ======================================
+		// Editor Groups & Tabs ======================================
+		"editorGroup.border": "#0b1226",
+		"editorGroup.dropBackground": "#2c344d7f",
+		"editorGroupHeader.noTabsBackground": "#050a1a",
+		"editorGroupHeader.tabsBackground": "#0b1226",
+		"editorGroupHeader.tabsBorder": "#00000000",
+		"editorGroupHeader.border": "#00000000",
+		"editorGroup.emptyBackground": "#050a1a",
+		// TODO: What does this do?
+		//"editorGroup.focusedEmptyBorder": "#ff0000",
+		"editorGroup.dropIntoPromptForeground": "#ffffff",
+		"editorGroup.dropIntoPromptBackground": "#050a1a",
+		"editorGroup.dropIntoPromptBorder": "#00000000",
+		"tab.activeBackground": "#01040d",
+		"tab.unfocusedActiveBackground": "#050a1a",
+		"tab.activeForeground": "#ffffff",
+		"tab.border": "#00000000",
+		"tab.activeBorder": "#2794ff",
+		"tab.unfocusedActiveBorder": "#1470cc",
+		"tab.activeBorderTop": "#26f8fe",
+		"tab.unfocusedActiveBorderTop": "#079299",
+		"tab.lastPinnedBorder": "#31d821",
+		"tab.inactiveBackground": "#050a1a",
+		"tab.unfocusedInactiveBackground": "#0b1226",
+		"tab.inactiveForeground": "#b8bdcc",
+		"tab.unfocusedActiveForeground": "#b8bdcc",
+		"tab.unfocusedInactiveForeground": "#606880",
+		"tab.hoverBackground": "#01040d",
+		"tab.unfocusedHoverBackground": "#01040d",
+		//"tab.hoverForeground": "#00000000",
+		//"tab.unfocusedHoverForeground": "#00000000",
+		//"tab.hoverBorder": "#000000",
+		//"tab.unfocusedHoverBorder": "#000000",
+		//"tab.activeModifiedBorder": "#ff0000",
+		//"tab.inactiveModifiedBorder": "#ff0000",
+		//"tab.unfocusedActiveModifiedBorder": "#ff0000",
+		//"tab.unfocusedInactiveModifiedBorder": "#ff0000",
+		// TODO: What does the below do?
+		//"editorPane.background": "#ff0000",
+		//"sideBySideEditor.horizontalBorder": "#ff0000",
+		//"sideBySideEditor.verticalBorder": "#ff0000",
 
 		// TODO: Editor Colors =============================================
 		"editor.background": "#01040d",
