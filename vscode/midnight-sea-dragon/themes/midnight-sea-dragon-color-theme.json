@@ -38,6 +38,7 @@
 		"button.border": "#00000000",
 		"button.separator": "#1f2740",
 		"button.hoverBackground": "#d95316",
+		// TODO: All these buttons and checkboxes
 		// TODO: "button.secondaryForeground": "#ff0000",
 		// TODO: "button.secondaryBackground": "#ff0000",
 		// TODO: "button.secondaryHoverBackground": "#ff0000",
@@ -64,7 +65,39 @@
 		// TODO: Progress Bar ==============================================
 		"progressBar.background": "#bf5726",
 
-		// TODO: Lists and Trees ===========================================
+		// Lists and Trees ===========================================
+		"list.activeSelectionBackground": "#01040d",
+		"list.activeSelectionForeground": "#ffffff",
+		"list.dropBackground": "#2c344d",
+		"list.focusBackground": "#131b33",
+		"list.focusForeground": "#ffffff",
+		// TODO: "list.focusHighlightForeground": "#ff0000",
+		"list.focusOutline": "#2c344d",
+		"list.focusAndSelectionOutline": "#2c344d",
+		// TODO: "list.highlightForeground": "#ff0000",
+		"list.hoverBackground": "#131b33",
+		"list.hoverForeground": "#ffffff",
+		"list.inactiveSelectionBackground": "#01040d",
+		"list.inactiveSelectionForeground": "#ffffff",
+		// TODO: Does this do anything?
+		// "list.inactiveSelectionIconForeground": "#ff0000",
+		"list.inactiveFocusBackground": "#131b33",
+		"list.inactiveFocusOutline": "#2c344d",
+		"list.invalidItemForeground": "#800606",
+		"list.errorForeground": "#e52222",
+		"list.warningForeground": "#de591c",
+		// TODO: How to test these?
+		//"listFilterWidget.background": "#ff0000",
+		//"listFilterWidget.outline": "#ff0000",
+		//"listFilterWidget.noMatchesOutline": "#ff0000",
+		//"listFilterWidget.shadow": "#ff0000",
+		//"list.filterMatchBackground": "#ff0000",
+		//"list.filterMatchBorder": "#ff0000",
+		//"list.deemphasizedForeground": "#ff0000",
+		"tree.indentGuidesStroke": "#828b99",
+		// TODO: What is this?
+		//"tree.tableColumnsBorder": "#ff0000",
+		//"tree.tableOddRowsBackground": "#ff0000",
 
 		// Activity Bar ==============================================
 		"activityBar.background": "#0b1226",
