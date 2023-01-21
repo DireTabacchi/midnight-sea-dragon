@@ -66,8 +66,21 @@
 
 		// TODO: Lists and Trees ===========================================
 
-		// TODO: Activity Bar ==============================================
+		// Activity Bar ==============================================
 		"activityBar.background": "#0b1226",
+		"activityBar.dropBorder": "#1470cc",
+		"activityBar.foreground": "#ffffff",
+		"activityBar.inactiveForeground": "#606880",
+		"activityBar.border": "#00000000",
+		"activityBarBadge.background": "#d95316",
+		"activityBarBadge.foreground": "#dadde6",
+		"activityBar.activeBorder": "#2794ff",
+		"activityBar.activeBackground": "#050a1a",
+		// TODO: What do these do?
+		//"activityBar.activeFocusBorder": "#ff0000",
+		//"activityBarItem.profilesForeground": "#ff0000",
+		//"activityBarItem.profilesBackground": "#ff0000",
+		//"activityBarItem.profilesHoverForeground": "#ff0000",
 
 		// TODO: Side Bar ==================================================
 		"sideBar.background": "#050a1a",
