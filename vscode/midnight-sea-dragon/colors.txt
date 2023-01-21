@@ -25,7 +25,6 @@ purple =    "#990799"
 cyan =      "#079299"
 white =     "#828b99"
 
-1369BF
 
 # Light Colors
 light-black =   "#262f3f"

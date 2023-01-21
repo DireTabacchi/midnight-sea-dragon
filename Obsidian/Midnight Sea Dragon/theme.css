@@ -13,7 +13,7 @@
     --green: rgb(var(--green_x)); /* #107306 */
     --yellow_x: 222, 89, 28;
     --yellow: rgb(var(--yellow_x)); /* #de591c */
-    --blue_x: 8, 81, 153;
+    --blue_x: 20, 112, 204;
     --blue: rgb(var(--blue_x)); /* #085199 */
     --purple_x: 153, 7, 153;
     --purple: rgb(var(--purple_x)); /* #990799 */
@@ -94,7 +94,7 @@
     --inline-title-color: var(--blue);
 
     --bold-color: var(--bright-blue);
-    --italic-color: var(--bright-green);
+    --italic-color: var(--bright-yellow);
 
     --checkbox-color: var(--white);
     --checkbox-color-hover: var(--bright-white);

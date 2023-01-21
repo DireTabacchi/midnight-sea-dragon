@@ -92,7 +92,12 @@
 
 		// TODO: Status Bar Colors =========================================
 
-		// TODO: Title Bar Colors ==========================================
+		// Title Bar Colors ==========================================
+		"titleBar.activeBackground": "#0b1226",
+		"titleBar.activeForeground": "#ffffff",
+		"titleBar.inactiveBackground": "#050a1a",
+		"titleBar.inactiveForeground": "#b8bdcc",
+		"titleBar.border": "#0b1226",
 
 		// TODO: Menu Bar Colors ===========================================
 
