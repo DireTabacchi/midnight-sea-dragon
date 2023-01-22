@@ -194,7 +194,7 @@
 		//"sideBySideEditor.horizontalBorder": "#ff0000",
 		//"sideBySideEditor.verticalBorder": "#ff0000",
 
-		// TODO: Editor Colors =============================================
+		// Editor Colors =============================================
 		"editor.background": "#01040d",
 		"editor.foreground": "#ffffff",
 		"editorLineNumber.foreground": "#828b99",
@@ -273,6 +273,10 @@
 		"editorOverviewRuler.addedForeground": "#1fa611",
 		"editorOverviewRuler.deletedForeground": "#b31212",
 		"editorInfo.foreground": "#ffffff",
+		"problemsWarningIcon.foreground": "#de591c",
+		"editorWarning.border": "#de591c00",
+		"editorWarning.background": "#01040d00",
+		"editorWarning.foreground": "#d95316",
 
 		// TODO: EditorInlayHint properties
 		// TODO: What are these?
@@ -289,13 +293,9 @@
 		"editor.symbolHighlightBorder": "#ff0",
 		"editor.linkedEditingBackground": "#fff",
 		"editorCodeLens.foreground":"#00f",
-		"editorWarning.foreground": "#d95316",
-		"editorWarning.border": "#00f",
-		"editorWarning.background": "#0f0",
-		"editorInfo.border": "#00f",
+		"editorInfo.border": "#f0f",
 		"editorInfo.background": "#0f0",
-		"problemsWarningIcon.foreground": "#00f",
-		"problemsInfoIcon.foreground": "#0ff",
+		"problemsInfoIcon.foreground": "#0f0",
 		"editorUnnecessaryCode.border": "#f0f",
 		"editorUnnecessaryCode.opacity": "#f00",
 		"editorGutter.commentRangeForeground": "#f0f",
@@ -317,6 +317,7 @@
 		// TODO: Panel Colors ==============================================
 
 		// TODO: Status Bar Colors =========================================
+		"statusBar.background": "#fffff",
 
 		// Title Bar Colors ==========================================
 		"titleBar.activeBackground": "#0b1226",
