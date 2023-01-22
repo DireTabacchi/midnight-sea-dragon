@@ -30,7 +30,7 @@
 		// Action Colors ==============================================
 		"toolbar.hoverBackground": "#2c344d",
 		// TODO: "toolbar.hoverOutline": "#ff0000",
-		// TODO: "toolbar.activeBackground": "#ff0000",
+		// TODO: "toolbar
 
 		// Button Control ============================================
 		"button.background": "#bf5726",
@@ -66,7 +66,7 @@
 		"inputValidation.errorBackground": "#b31212",
 		"inputValidation.errorForeground": "#ffffff",
 		"inputValidation.errorBorder": "#b31212",
-		// TODO: How to make these show up?
+		// TODO: How to make these show up??
 		//"inputValidation.infoBackground": "#ff0000",
 		//"inputValidation.infoForeground": "#ff0000",
 		//"inputValidation.infoBorder": "#ff0000",
@@ -148,6 +148,10 @@
 		"sideBarSectionHeader.border": "#01040d",
 
 		// TODO: Minimap ===================================================
+		"minimap.findMatchHighlight": "#828b99",
+		"minimap.selectionHighlight": "#828b997f",
+		"minimap.errorHighlight": "#e52222c0",
+		"minimap.warningHighlight": "#00f",
 
 		// Editor Groups & Tabs ======================================
 		"editorGroup.border": "#0b1226",
@@ -157,8 +161,6 @@
 		"editorGroupHeader.tabsBorder": "#00000000",
 		"editorGroupHeader.border": "#00000000",
 		"editorGroup.emptyBackground": "#050a1a",
-		// TODO: What does this do?
-		//"editorGroup.focusedEmptyBorder": "#ff0000",
 		"editorGroup.dropIntoPromptForeground": "#ffffff",
 		"editorGroup.dropIntoPromptBackground": "#050a1a",
 		"editorGroup.dropIntoPromptBorder": "#00000000",
@@ -187,6 +189,7 @@
 		//"tab.unfocusedActiveModifiedBorder": "#ff0000",
 		//"tab.unfocusedInactiveModifiedBorder": "#ff0000",
 		// TODO: What does the below do?
+		//"editorGroup.focusedEmptyBorder": "#00f",
 		//"editorPane.background": "#ff0000",
 		//"sideBySideEditor.horizontalBorder": "#ff0000",
 		//"sideBySideEditor.verticalBorder": "#ff0000",
@@ -194,6 +197,114 @@
 		// TODO: Editor Colors =============================================
 		"editor.background": "#01040d",
 		"editor.foreground": "#ffffff",
+		"editorLineNumber.foreground": "#828b99",
+		"editorLineNumber.activeForeground": "#079299",
+		"editorCursor.background": "#01040d",
+		"editorCursor.foreground": "#828b99",
+		"editor.selectionBackground": "#828b997f",
+		"editor.selectionForeground": "#01040d",
+		"editor.inactiveSelectionBackground": "#828b993f",
+		"editor.selectionHighlightBackground": "#1470cc7f",
+		"editor.selectionHighlightBorder": "#2794ff7f",
+		"editor.findMatchBackground": "#828b997f",
+		"editor.findMatchHighlightBackground": "#1470cc7f",
+		"editor.findRangeHighlightBackground": "#1470cc3f",
+		"editor.findMatchBorder": "#989eb300",
+		"editor.findMatchHighlightBorder": "#2794ff00",
+		//"editor.findRangeHighlightBorder": "#2794ff00",
+		"searchEditor.findMatchBackground": "#828b997f",
+		//"searchEditor.findMatchBorder": "#828b993f",
+		"searchEditor.textInputBorder": "#2c344d",
+		"editor.hoverHighlightBackground": "#0792997f",
+		"editor.lineHighlightBackground": "#0b1226",
+		//"editor.lineHighlightBorder": "#0b1126",
+		"editorUnicodeHighlight.background": "#9907997f",
+		//"editorUnicodeHighlight.border": "#9907997f",
+		// TODO: Find somewhere to test this
+		// "editorLink.activeForeground": "#ff0000",
+		"editorWhitespace.foreground": "#606880",
+		"editorIndentGuide.background":"#1470cc",
+		"editorIndentGuide.activeBackground": "#2794ff",
+		"editorRuler.foreground": "#606880",
+		"editorLightBulb.foreground": "#f2dd00",
+		"editorLightBulbAutoFix.foreground": "#26f8fe",
+		"editorBracketMatch.background": "#6068807f",
+		"editorBracketMatch.border": "#6068807f",
+		"editorBracketHighlight.foreground1": "#f3ffff",
+		"editorBracketHighlight.foreground2": "#de591c",
+		"editorBracketHighlight.foreground3": "#f2dd00",
+		"editorBracketHighlight.foreground4": "#1fa611",
+		"editorBracketHighlight.foreground5": "#1470cc",
+		"editorBracketHighlight.foreground6": "#990799",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#b31212",
+		"editorBracketPairGuide.activeBackground1": "#f3ffff",
+		"editorBracketPairGuide.activeBackground2": "#de591c",
+		"editorBracketPairGuide.activeBackground3": "#f2dd00",
+		"editorBracketPairGuide.activeBackground4": "#31d821",
+		"editorBracketPairGuide.activeBackground5": "#2794ff",
+		"editorBracketPairGuide.activeBackground6": "#ff27ff",
+		"editorBracketPairGuide.background1": "#606880",
+		"editorBracketPairGuide.background2": "#bf5726",
+		"editorBracketPairGuide.background3": "#a69800",
+		"editorBracketPairGuide.background4": "#1fa611",
+		"editorBracketPairGuide.background5": "#1470cc",
+		"editorBracketPairGuide.background6": "#990799",
+		"editor.foldBackground": "#050a1a7f",
+		"editorOverviewRuler.background": "#01040d",
+		"editorOverviewRuler.border": "#2c344d",
+		"editorOverviewRuler.findMatchForeground": "#828b99",
+		"editor.rangeHighlightBackground": "#2c344d",
+		"editor.rangeHighlightBorder":"#2c344d",
+		"editorOverviewRuler.errorForeground": "#b31212",
+		"editorOverviewRuler.warningForeground": "#bf5726",
+		"editorError.foreground": "#b3121200",
+		"editorError.border": "#b31212",
+		"editorError.background": "#b3121200",
+		"problemsErrorIcon.foreground": "#e52222",
+		"editorHint.foreground": "#ffffff",
+		"editorHint.border": "#ffffff",
+		"editorOverviewRuler.selectionHighlightForeground": "#079299",
+		"editorOverviewRuler.modifiedForeground": "#990799",
+		"editorGutter.background": "#01040d",
+		"editorGutter.foldingControlForeground": "#079299",
+		"editorGutter.addedBackground": "#1fa611",
+		"editorGutter.modifiedBackground": "#990799",
+		"editorGutter.deletedBackground": "#b31212",
+		"editorOverviewRuler.addedForeground": "#1fa611",
+		"editorOverviewRuler.deletedForeground": "#b31212",
+		"editorInfo.foreground": "#ffffff",
+
+		// TODO: EditorInlayHint properties
+		// TODO: What are these?
+		"editorOverviewRuler.rangeHighlightForeground": "#00f",
+		"editorOverviewRuler.wordHighlightForeground": "#0f0",
+		"editorOverviewRuler.wordHighlightStrongForeground": "#0ff",
+		"editorOverviewRuler.infoForeground": "#f00",
+		"editorOverviewRuler.bracketMatchForeground": "#f0f",
+		"editor.wordHighlightBackground": "#00f",
+		"editor.wordHighlightBorder": "#0f0",
+		"editor.wordHighlightStrongBackground": "#0ff",
+		"editor.wordHighlightStrongBorder": "#f00",
+		"editor.symbolHighlightBackground": "#f0f",
+		"editor.symbolHighlightBorder": "#ff0",
+		"editor.linkedEditingBackground": "#fff",
+		"editorCodeLens.foreground":"#00f",
+		"editorWarning.foreground": "#d95316",
+		"editorWarning.border": "#00f",
+		"editorWarning.background": "#0f0",
+		"editorInfo.border": "#00f",
+		"editorInfo.background": "#0f0",
+		"problemsWarningIcon.foreground": "#00f",
+		"problemsInfoIcon.foreground": "#0ff",
+		"editorUnnecessaryCode.border": "#f0f",
+		"editorUnnecessaryCode.opacity": "#f00",
+		"editorGutter.commentRangeForeground": "#f0f",
+		"editorCommentsWidget.resolvedBorder": "#00f",
+		"editorCommentsWidget.unresolvedBorder": "#0f0",
+		"editorCommentsWidget.rangeBackground": "#0ff",
+		"editorCommentsWidget.rangeBorder": "#f00",
+		"editorCommentsWidget.rangeActiveBackground": "#f0f",
+		"editorCommentsWidget.rangeActiveBorder": "#ff0",
 
 		// TODO: Diff Editor Colors ========================================
 
@@ -591,6 +702,14 @@
 			"settings": {
 				"foreground": "#f2dd00",
 			},
+		},
+		{
+			"scope": [
+				"meta.attribute"
+			],
+			"settings": {
+				"foreground": "#990799",
+			}
 		},
 
 		// C/C++
