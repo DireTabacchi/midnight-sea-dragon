@@ -7,9 +7,9 @@
 
     --black_x: 3, 11, 26;
     --black: rgb(var(--black_x)); /* #030b1a */
-    --red_x: 128, 6, 6;
+    --red_x: 179, 18, 18;
     --red: rgb(var(--red_x)); /* #800606 */
-    --green_x: 16, 115, 6;
+    --green_x: 31, 166, 17;
     --green: rgb(var(--green_x)); /* #107306 */
     --yellow_x: 222, 89, 28;
     --yellow: rgb(var(--yellow_x)); /* #de591c */

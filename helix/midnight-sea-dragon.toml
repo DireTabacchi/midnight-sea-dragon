@@ -128,10 +128,10 @@
 # Sixteen-Color Palette ----------------------------------------------
 # Dark Colors
 black =     "#030b1a"
-red =       "#800606"
-green =     "#107306"
+red =       "#b31212"
+green =     "#1fa611"
 yellow =    "#de591c"
-blue =      "#085199"
+blue =      "#1470cc"
 purple =    "#990799"
 cyan =      "#079299"
 white =     "#828b99"
