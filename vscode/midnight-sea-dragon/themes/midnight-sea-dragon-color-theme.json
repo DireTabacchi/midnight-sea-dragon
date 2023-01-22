@@ -218,7 +218,46 @@
 
 		// TODO: Keyboard Shortcut Table Colors ============================
 
-		// TODO: Integrated Terminal Colors ================================
+		// Integrated Terminal Colors ================================
+		"terminal.background": "#01040d",
+		"terminal.border": "#2c344d",
+		"terminal.foreground": "#ffffff",
+		"terminal.ansiBlack": "#030b1a",
+		"terminal.ansiBrightBlack": "#262f3f",
+		"terminal.ansiRed": "#b31212",
+		"terminal.ansiBrightRed": "#e52222",
+		"terminal.ansiGreen": "#1fa611",
+		"terminal.ansiBrightGreen": "#31d821",
+		"terminal.ansiYellow": "#de591c",
+		"terminal.ansiBrightYellow": "#f2dd00",
+		"terminal.ansiBlue": "#1470cc",
+		"terminal.ansiBrightBlue": "#2794ff",
+		"terminal.ansiMagenta": "#990799",
+		"terminal.ansiBrightMagenta": "#ff27ff",
+		"terminal.ansiCyan": "#079299",
+		"terminal.ansiBrightCyan": "#26f8fe",
+		"terminal.ansiWhite": "#828b99",
+		"terminal.ansiBrightWhite": "#f3ffff",
+		"terminal.selectionBackground": "#828b99ff",
+		"terminal.selectionForeground": "#01040d",
+		"terminal.inactiveSelectionBackground": "#828b997f",
+
+		// TODO: These
+		"terminal.findMatchBackground": "#ff0000",
+		"terminal.findMatchBorder": "#ff0000",
+		"terminal.findMatchHighlightBackground": "#ff0000",
+		"terminal.findMatchHighlightBorder": "#ff0000",
+		
+		"terminalCursor.background": "#01040d",
+		"terminalCursor.foreground": "#828b99",
+		"terminal.dropBackground": "#2c344d7f",
+		"terminal.tab.activeBorder": "#ff27ff",
+		"terminalCommandDecoration.defaultBackground": "#079299",
+		"terminalCommandDecoration.successBackground": "#1fa611",
+		"terminalCommandDecoration.errorBackground": "#b31212",
+		// TODO: What do these do?
+		//"terminalOverviewRuler.cursorForeground": "#ff0000",
+		//"terminalOverviewRuler.findMatchForeground": "#ff0000",
 
 		// TODO: Debug Colors ==============================================
 
