@@ -54,15 +54,37 @@
 		"dropdown.border": "#131b33",
 		"dropdown.foreground": "#dadde6",
 		
-		// TODO: Input Control =============================================
+		// Input Control =============================================
+		"input.background": "#2c344d",
+		"input.border": "#131b3300",
+		"input.foreground": "#ffffff",
+		"input.placeholderForeground": "#989eb3",
+		"inputOption.activeBackground": "#1470cc",
+		"inputOption.activeBorder": "#1470cc",
+		"inputOption.activeForeground": "#ffffff",
+		"inputOption.hoverBackground": "#0b1226",
+		"inputValidation.errorBackground": "#b31212",
+		"inputValidation.errorForeground": "#ffffff",
+		"inputValidation.errorBorder": "#b31212",
+		// TODO: How to make these show up?
+		//"inputValidation.infoBackground": "#ff0000",
+		//"inputValidation.infoForeground": "#ff0000",
+		//"inputValidation.infoBorder": "#ff0000",
+		//"inputValidation.warningBackground": "#ff0000",
+		//"inputValidation.warningForeground": "#ff0000",
+		//"inputValidation.warningBorder": "#ff0000",
 
-		// TODO: Scrollbar Control =========================================
+		// Scrollbar Control =========================================
+		"scrollbar.shadow": "#131b33",
+		"scrollbarSlider.activeBackground": "#7a8299",
+		"scrollbarSlider.background": "#2c344d7f",
+		"scrollbarSlider.hoverBackground": "#7a82997f",
 
 		// Badge =====================================================
 		"badge.foreground": "#dadde6",
 		"badge.background": "#1f2740",
 
-		// TODO: Progress Bar ==============================================
+		// Progress Bar ==============================================
 		"progressBar.background": "#bf5726",
 
 		// Lists and Trees ===========================================
