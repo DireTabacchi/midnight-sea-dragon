@@ -151,7 +151,7 @@
 		"minimap.findMatchHighlight": "#828b99",
 		"minimap.selectionHighlight": "#828b997f",
 		"minimap.errorHighlight": "#e52222c0",
-		"minimap.warningHighlight": "#00f",
+		"minimap.warningHighlight": "#de591c7f",
 
 		// Editor Groups & Tabs ======================================
 		"editorGroup.border": "#0b1226",
@@ -317,7 +317,32 @@
 		// TODO: Panel Colors ==============================================
 
 		// TODO: Status Bar Colors =========================================
-		"statusBar.background": "#fffff",
+		"statusBar.background": "#1470cc",
+		"statusBar.foreground": "#ffffff",
+		"statusBar.border": "#01040d00",
+		"statusBar.debuggingBackground": "#de591c",
+		"statusBar.debuggingForeground": "#ffffff",
+		"statusBar.debuggingBorder": "#01040d00",
+		"statusBar.noFolderBackground": "#990799",
+		"statusBar.noFolderForeground": "#ffffff",
+		"statusBar.noFolderBorder": "#01040d00",
+		"statusBarItem.activeBackground": "#01040d7f",
+		"statusBarItem.hoverBackground": "#01040d3f",
+		"statusBarItem.remoteBackground": "#1fa611",
+		"statusBarItem.remoteForeground": "#01040d",
+		"statusBarItem.errorBackground": "#b31212",
+		"statusBarItem.errorForeground": "#ffffff",
+		"statusBarItem.warningBackground": "#d95316",
+		"statusBarItem.warningForeground": "#01040d",
+		"statusBarItem.focusBorder": "#01040d",
+		"statusBar.focusBorder": "#606880",
+
+		// TODO: What is this?
+		"statusBarItem.prominentBackground": "#00f",
+		"statusBarItem.prominentForeground": "#0f0",
+		"statusBarItem.prominentHoverBackground": "#0ff",
+		//"statusBarItem.compactHoverBackground": "#f00",
+		
 
 		// Title Bar Colors ==========================================
 		"titleBar.activeBackground": "#0b1226",
