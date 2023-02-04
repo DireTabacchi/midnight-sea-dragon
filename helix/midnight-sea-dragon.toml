@@ -1,28 +1,37 @@
 # Name:         Midnight Sea Dragon
 # Author:       DireTabacchi
 # Maintainer:   DireTabacchi
-# Last change:  2023 02 02
+# Last change:  2023 02 04
 
 # UI Theming =========================================================
 
+# General UI
 "ui.background" = {bg = "dark0"}
 "ui.background.separator" = {fg = "blue", bg = "black"}
 "ui.selection" = {fg = "dark0", bg = "orange"}
 "ui.cursor" = {fg = "dark0", bg = "color-cursor"}
+
+# Cursor
 "ui.cursor.insert" = {fg = "dark0", bg = "color-cursor"}
 "ui.cursor.select" = {fg = "dark0", bg = "light-orange"}
 "ui.cursor.match" = {fg = "orange", bg = "light-black"}
 #"ui.cursor.primary" = {fg = "dark0", bg = "color-cursor"}
-"ui.gutter" = {fg = "white", bg = "black"}
-"ui.gutter.selected" = {fg = "light-white", bg = "light-black"}
-"ui.linenr" = {fg = "white", bg = "black"}
-"ui.linenr.selected" = {fg = "yellow", bg = "light-black"}
+
+# Gutter
+"ui.gutter" = {fg = "white", bg = "dark1"}
+"ui.gutter.selected" = {fg = "light-white", bg = "dark5"}
+"ui.linenr" = {fg = "white", bg = "dark1"}
+"ui.linenr.selected" = {fg = "yellow", bg = "dark5"}
+
+# Statusline
 "ui.statusline" = {fg = "light0", bg = "light-black"}
 "ui.statusline.inactive" = {fg = "white", bg = "black"}
 "ui.statusline.normal" = {fg = "light0", bg = "blue"}
 "ui.statusline.insert" = {fg = "dark0", bg = "light-green"}
 "ui.statusline.select" = {fg = "dark0", bg = "light-orange"}
 "ui.statusline.separator" = {fg = "white"}
+
+# Popups
 "ui.popup" = {fg = "white", bg = "light-black"}
 "ui.popup.info" = {fg = "blue", bg = "black"}
 "ui.window" = {fg = "white", bg = "light-black"}
@@ -39,12 +48,13 @@
 "ui.menu.selected" = {fg = "light-white", bg = "light-orange"}
 "ui.menu.scroll" = {fg = "white", bg = "dark3"}
 "ui.selection.primary" = {fg = "dark0", bg = "light-orange"}
-"ui.cursorline.primary" = {fg = "", bg = "dark1"}
+"ui.cursorline.primary" = {bg = "dark2"}
 "ui.cursorline.secondary" = {fg = "", bg = "dark1"}
 "ui.cursorcolumn.primary" = {fg = "", bg = "dark1"}
 "ui.cursorcolumn.secondary" = {fg = "", bg = "dark1"}
 "error" = {fg = "light-red", bg = "black"}
-"warning" = {fg = "light-yellow", bg = "black"}
+# TODO:
+"warning" = {fg = "light-yellow"}
 "info" = {fg = "light-cyan", bg = "black"}
 "hint" = {fg = "light-cyan", bg = "black"}
 "diagnostic" = {bg = "dark0", modifiers = ["underlined"]}
