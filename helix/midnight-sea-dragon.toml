@@ -1,7 +1,7 @@
 # Name:         Midnight Sea Dragon
 # Author:       DireTabacchi
 # Maintainer:   DireTabacchi
-# Last change:  2023 01 12
+# Last change:  2023 02 02
 
 # UI Theming =========================================================
 
@@ -19,10 +19,10 @@
 "ui.linenr.selected" = {fg = "yellow", bg = "light-black"}
 "ui.statusline" = {fg = "light0", bg = "light-black"}
 "ui.statusline.inactive" = {fg = "white", bg = "black"}
-"ui.statusline.normal" = {fg = "light0", bg = "light-black"}
+"ui.statusline.normal" = {fg = "light0", bg = "blue"}
 "ui.statusline.insert" = {fg = "dark0", bg = "light-green"}
 "ui.statusline.select" = {fg = "dark0", bg = "light-orange"}
-"ui.statusline.separator" = {fg = "white", bg = "black"}
+"ui.statusline.separator" = {fg = "white"}
 "ui.popup" = {fg = "white", bg = "light-black"}
 "ui.popup.info" = {fg = "blue", bg = "black"}
 "ui.window" = {fg = "white", bg = "light-black"}
@@ -148,12 +148,19 @@ light-white =   "#f3ffff"
 
 # Other Color Definitions --------------------------------------------
 dark0 = "#01040d"
-dark1 = "#071126"
-dark2 = "#0c1933"
-dark3 = "#0d2640"
+dark1 = "#050a1a"
+dark2 = "#0b1226"
+dark3 = "#131b33"
+dark4 = "#1f2740"
+dark5 = "#2c344d"
 light0 = "#ffffff"
+light1 = "#dadde6"
+light2 = "#b8bdcc"
+light3 = "#989eb3"
+light4 = "#7a8299"
+light5 = "#606880"
 color-cursor = "#828b99"
-orange = "#782804"
+orange = "#bf5726"
 light-orange = "#d95316"
 
 # End Palette ========================================================
