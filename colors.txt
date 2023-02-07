@@ -18,11 +18,11 @@ light-orange = d95316
 # Dark Colors
 black =     "#030b1a"
 red =       "#b31212"
-green =     "#1fa611"
+green =     "#169908"
 yellow =    "#de591c"
 blue =      "#1369bf"
 purple =    "#bf0abf"
-cyan =      "#079299"
+cyan =      "#0ab6bf"
 white =     "#828b99"
 
 # Light Colors
