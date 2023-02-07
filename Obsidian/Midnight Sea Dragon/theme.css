@@ -8,30 +8,30 @@
     --black_x: 3, 11, 26;
     --black: rgb(var(--black_x)); /* #030b1a */
     --red_x: 179, 18, 18;
-    --red: rgb(var(--red_x)); /* #800606 */
-    --green_x: 31, 166, 17;
-    --green: rgb(var(--green_x)); /* #107306 */
+    --red: rgb(var(--red_x)); /* #b31212 */
+    --green_x: 22, 153, 8;
+    --green: rgb(var(--green_x)); /* #169908 */
     --yellow_x: 222, 89, 28;
     --yellow: rgb(var(--yellow_x)); /* #de591c */
-    --blue_x: 20, 112, 204;
-    --blue: rgb(var(--blue_x)); /* #085199 */
-    --purple_x: 153, 7, 153;
-    --purple: rgb(var(--purple_x)); /* #990799 */
-    --cyan_x: 7, 146, 153;
-    --cyan: rgb(var(--cyan_x)); /* #079299 */
+    --blue_x: 19, 105, 191;
+    --blue: rgb(var(--blue_x)); /* #1369bf */
+    --purple_x: 191, 10, 191;
+    --purple: rgb(var(--purple_x)); /* #bf0abf*/
+    --cyan_x: 10, 182, 191;
+    --cyan: rgb(var(--cyan_x)); /* #0ab6bf */
     --white_x: 130, 139, 153;
     --white: rgb(var(--white_x)); /* #828b99 */
 
     --bright-black_x: 38, 47, 63;
     --bright-black: rgb(var(--bright-black_x)); /* #262f3f */
-    --bright-red_x: 229, 34, 34;
-    --bright-red: rgb(var(--bright-red_x)); /* #e52222 */
+    --bright-red_x: 242, 48, 48;
+    --bright-red: rgb(var(--bright-red_x)); /* #f23030 */
     --bright-green_x: 49, 216, 33;
-    --bright-green: rgb(var(--bright-green_x)); /* #21d821 */
+    --bright-green: rgb(var(--bright-green_x)); /* #31d821 */
     --bright-yellow_x: 242, 221, 0;
     --bright-yellow: rgb(var(--bright-yellow_x)); /* #f2dd00 */
-    --bright-blue_x: 39, 148, 255;
-    --bright-blue: rgb(var(--bright-blue_x)); /* #2794ff */
+    --bright-blue_x: 51, 153, 255;
+    --bright-blue: rgb(var(--bright-blue_x)); /* #3399ff */
     --bright-purple_x: 255, 39, 255;
     --bright-purple: rgb(var(--bright-purple_x)); /* #ff27ff */
     --bright-cyan_x: 38, 248, 254;
@@ -94,7 +94,7 @@
     --inline-title-color: var(--blue);
 
     --bold-color: var(--bright-blue);
-    --italic-color: var(--bright-yellow);
+    --italic-color: var(--green);
 
     --checkbox-color: var(--white);
     --checkbox-color-hover: var(--bright-white);
@@ -138,6 +138,8 @@
     --nav-item-color-active: var(--bright-blue);
     --nav-item-background-hover: var(--bright-black);
     --nav-item-background-active: var(--bright-black);
+
+    --list-marker-color: var(--blue);
 }
 
 table
