@@ -88,10 +88,6 @@
 
 # Syntax Highlighting ================================================
 
-# TODO:
-#   attribute
-#   tag
-
 "attribute" = "red"
 
 # Types
