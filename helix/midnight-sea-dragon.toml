@@ -14,7 +14,7 @@
 # Cursor
 "ui.cursor.insert" = {fg = "dark0", bg = "color-cursor"}
 "ui.cursor.select" = {fg = "dark0", bg = "light-orange"}
-"ui.cursor.match" = {fg = "orange", bg = "light-black"}
+"ui.cursor.match" = {fg = "light-cyan", modifiers = ["bold"]}
 #"ui.cursor.primary" = {fg = "dark0", bg = "color-cursor"}
 
 # Gutter
@@ -102,7 +102,7 @@
 "constant.builtin" = "light-purple"
 "constant.character" = "light-yellow"
 "constant.character.escape" = "light-yellow"
-"constant.numeric" = "light-green"
+"constant.numeric" = "light-purple"
 "string" = "light-green"
 
 # Comments
@@ -135,19 +135,19 @@
 # Dark Colors
 black =     "#030b1a"
 red =       "#b31212"
-green =     "#1fa611"
+green =     "#169908"
 yellow =    "#de591c"
-blue =      "#1470cc"
-purple =    "#990799"
-cyan =      "#079299"
+blue =      "#1369bf"
+purple =    "#bf0abf"
+cyan =      "#0ab6bf"
 white =     "#828b99"
 
 # Light Colors
 light-black =   "#262f3f"
-light-red =     "#e52222"
+light-red =     "#f23030"
 light-green =   "#31d821"
 light-yellow =  "#f2dd00"
-light-blue =    "#2794ff"
+light-blue =    "#3399ff"
 light-purple =  "#ff27ff"
 light-cyan =    "#26f8fe"
 light-white =   "#f3ffff"
