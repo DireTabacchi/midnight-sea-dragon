@@ -2,7 +2,7 @@
 " Name:			Midnight Sea Dragon
 " Author:		DireTabacchi
 " Maintainer:	DireTabacchi
-" Last Change:	2023 01 15
+" Last Change:	2023 02 26
 " \------------------------------------------------------------------/
 
 " Initialization: {{{
@@ -19,36 +19,32 @@ let g:colors_name="midnight sea dragon"
 " }}}
 " Palette: {{{
 
-" setup palette dictionary
-let s:dr = {}
-
 " fill the dict with colors
 
 " TODO: update xterm-256 colors
-let s:dr.bg = ['#01040d', 16]
-let s:dr.fg = ['#ffffff', 224]
-" Used with bright bg text, i.e. TODO tags
-let s:dr.contrast_fg = ['#020b1a', 17]
+" Open Midnight Sea
+let s:msd0 =  ["#01040d", 0]
+let s:msd1 =  ["#060b1a", 0]
+let s:msd2 =  ["#0f1426", 0]
+let s:msd3 =  ["#1a2033", 0]
 
-let s:dr.dark_black 	= ['#020b1a', 234]
-let s:dr.dark_red 		= ['#b31212', 88]
-let s:dr.dark_green 	= ['#1fa611', 28]
-let s:dr.dark_yellow	= ['#de591c', 136]
-let s:dr.dark_blue		= ['#1470cc', 25]
-let s:dr.dark_magenta	= ['#990799', 90]
-let s:dr.dark_cyan		= ['#079299', 29]
-let s:dr.dark_white		= ['#828b99', 95]
-let s:dr.dark_orange	= ['#782804', 130]
+" Icy Moon Light
+let s:msd4 =  ["#8f9ecc", 0]
+let s:msd5 =  ["#b8c3e6", 0]
+let s:msd6 =  ["#e6ecff", 0]
 
-let s:dr.bright_black 	= ['#262f3f', 59]
-let s:dr.bright_red 	= ['#e52222', 196]
-let s:dr.bright_green 	= ['#31d821', 41]
-let s:dr.bright_yellow	= ['#f2dd00', 214]
-let s:dr.bright_blue	= ['#2794ff', 27]
-let s:dr.bright_magenta	= ['#ff27ff', 163]
-let s:dr.bright_cyan	= ['#26f8fe', 42]
-let s:dr.bright_white	= ['#f3ffff', 224]
-let s:dr.bright_orange	= ['#f05c00', 202]
+" Midnight Seafoam
+let s:msd7 =  ["#0ab6bf", 0]
+let s:msd8 =  ["#0a9ebf", 0]
+let s:msd9 =  ["#1380bf", 0]
+let s:msd10 = ["#1369bf", 0]
+
+" Dragon's Flair
+let s:msd11 = ["#bf2626", 0]
+let s:msd12 = ["#cc581f", 0]
+let s:msd13 = ["#ccaa00", 0]
+let s:msd14 = ["#1e8013", 0]
+let s:msd15 = ["#a611a6", 0]
 
 " }}}
 " Setup Emphasis: {{{
@@ -66,19 +62,6 @@ let s:inverse = 'inverse,'
 let s:vim_bg = ['bg', 'bg']
 let s:vim_fg = ['fg', 'fg']
 let s:none	 = ['NONE', 'NONE']
-
-let s:bg = s:dr.bg
-let s:fg = s:dr.fg
-let s:contrast_fg = s:dr.contrast_fg
-let s:black 	= [ s:dr.dark_black, s:dr.bright_black ]
-let s:red 		= [ s:dr.dark_red, s:dr.bright_red ]
-let s:green 	= [ s:dr.dark_green, s:dr.bright_green ]
-let s:yellow 	= [ s:dr.dark_yellow, s:dr.bright_yellow ]
-let s:blue 		= [ s:dr.dark_blue, s:dr.bright_blue ]
-let s:magenta	= [ s:dr.dark_magenta, s:dr.bright_magenta ]
-let s:cyan 		= [ s:dr.dark_cyan, s:dr.bright_cyan ]
-let s:white 	= [ s:dr.dark_white, s:dr.bright_white ]
-let s:orange 	= [s:dr.dark_orange, s:dr.bright_orange ]
 
 " }}}
 " Highlight Function: {{{
@@ -122,81 +105,85 @@ endfunction
 " Begin Colorscheme -------------------------------------------------
 " General UI: {{{
 
-" Normal text
-call s:HL('Normal', s:fg, s:bg)
-
 set background=dark
 
-" status line of current window
-call s:HL('StatusLine', s:fg, s:black[1])
-" status line of not-current window
-call s:HL('StatusLineNC', s:white[1], s:black[0], s:italic)
-" Screen line the Cursor is on
+" Normal text
+call s:HL('Normal', s:msd6, s:msd0)
 
-call s:HL('CursorLine', s:none, s:black[0])
+" status line of current window
+call s:HL('StatusLine', s:msd8, s:msd2)
+" status line of not-current window
+call s:HL('StatusLineNC', s:msd4, s:msd1, s:italic)
+" Screen line the Cursor is on
+call s:HL('CursorLine', s:none, s:msd1)
 hi! link CursorColumn CursorLine
 
 " TODO: TabLine
 
 " Match paired brackets under the cursor
-call s:HL('MatchParen', s:orange[1], s:black[1], s:bold)
+call s:HL('MatchParen', s:msd8, s:msd3, s:bold)
 
 " Highlighted screen columns
-call s:HL('ColorColumn', s:none, s:black[1])
+call s:HL('ColorColumn', s:none, s:msd1)
 
 " Concealed element
-call s:HL('Conceal', s:black[0], s:none)
+call s:HL('Conceal', s:msd3, s:none)
 
-call s:HL('CursorLineNr', s:yellow[0], s:none)
 
-call s:HL('NonText', s:black[1], s:none)
+call s:HL('NonText', s:msd3, s:none)
 hi! link SpecialKey NonText
 
-call s:HL('Visual', s:none, s:bg, s:inverse)
+call s:HL('Visual', s:none, s:msd2)
 hi! link VisualNOS Visual
 
-call s:HL('Search', s:yellow[1], s:black[0], s:inverse)
-call s:HL('IncSearch', s:yellow[1], s:black[0], s:inverse)
-call s:HL('CurSearch', s:orange[1], s:black[0], s:inverse)
+call s:HL('Search', s:msd1, s:msd8)
+call s:HL('IncSearch', s:msd6, s:msd10)
+hi! link CurSearch IncSearch
 
-call s:HL('VertSplit', s:white[0], s:black[1])
-
-call s:HL('Directory', s:blue[0], s:none)
-
-call s:HL('Title', s:blue[1], s:none)
-
-call s:HL('ErrorMsg', s:black[0], s:red[1], s:bold)
-
-call s:HL('MoreMsg', s:green[0], s:none)
-
-call s:HL('ModeMsg', s:green[0], s:none, s:inverse . s:bold)
-
-call s:HL('Question', s:magenta[1])
-
-call s:HL('WarningMsg', s:red[1], s:none, s:bold . s:italic)
-
-call s:HL('EndOfBuffer', s:green[0], s:none)
+call s:HL('VertSplit', s:msd1, s:msd0)
+call s:HL('Directory', s:msd8, s:none)
+call s:HL('Title', s:msd7, s:none)
+call s:HL('ErrorMsg', s:msd0, s:msd11, s:bold)
+call s:HL('MoreMsg', s:msd8, s:none)
+call s:HL('ModeMsg', s:msd14, s:none, s:inverse . s:bold)
+    
+call s:HL('Question', s:msd9, s:none, s:bold)
+call s:HL('WarningMsg', s:msd1, s:msd13, s:bold . s:italic)
+hi! link EndOfBuffer NonText
 
 " }}}
 " Popup Menu: {{{
-call s:HL('Pmenu', s:orange[1], s:black[1])
-call s:HL('PmenuSel', s:white[1], s:orange[0])
-call s:HL('PmenuSbar', s:white[0], s:bg)
-call s:HL('PmenuThumb', s:white[1], s:black[1])
+call s:HL('Pmenu', s:msd4, s:msd1)
+call s:HL('PmenuSel', s:msd8, s:msd3)
+call s:HL('PmenuSbar', s:msd4, s:msd1)
+call s:HL('PmenuThumb', s:msd8, s:msd3)
 
 " }}}
 " Gutter: {{{
 
-call s:HL('LineNr', s:white[0], s:black[0])
+call s:HL('CursorLineNr', s:msd7, s:none)
+call s:HL('LineNr', s:msd10, s:none)
 
-call s:HL('Folded', s:blue[1], s:black[1], s:italic . s:bold)
-hi! link FoldColumn Folded
-hi! link SignColumn Folded
+call s:HL('Folded', s:msd3, s:msd1, s:italic . s:bold)
+call s:HL('FoldColumn', s:msd3, s:msd0, s:italic . s:bold)
+call s:HL('SignColumn', s:msd1, s:msd0, s:italic . s:bold)
 
 " }}}
+" Neovim Diagnostics: {{{
+
+call s:HL("DiagnosticWarn", s:msd13)
+call s:HL("DiagnosticError", s:msd11)
+call s:HL("DiagnosticInfo", s:msd8)
+call s:HL("DiagnosticHint", s:msd10)
+call s:HL("DiagnosticUnderlineWarn", s:msd13, s:none, s:undercurl)
+call s:HL("DiagnosticUnderlineError", s:msd11, s:none, s:underline)
+call s:HL("DiagnosticUnderlineInfo", s:msd8, s:none, s:undercurl)
+call s:HL("DiagnosticUnderlineHint", s:msd10, s:none, s:underline)
+
+"}}}
 " Cursor: {{{
 " Character under curor
-call s:HL('Cursor', s:none, s:none, s:inverse)
+call s:HL('Cursor', s:msd0, s:msd4, s:inverse)
 " language-mapping cursor
 hi! link lCursor Cursor
 
@@ -204,115 +191,112 @@ hi! link lCursor Cursor
 " Syntax Highlighting: {{{
 
 " Comments
-call s:HL('Comment', s:white[0], s:none)
-
+call s:HL('Comment', s:msd3, s:none)
 " Generic Constants
-call s:HL('Constant', s:green[1])
-call s:HL('String', s:green[1])
-call s:HL('Character', s:yellow[1])
-call s:HL('Number', s:green[1])
-
+call s:HL('Constant', s:msd4)
+call s:HL('String', s:msd14)
+call s:HL('Character', s:msd14)
+call s:HL('Number', s:msd15)
+call s:HL('Float', s:msd15)
+call s:HL('Boolean', s:msd4)
 " Generic Identifiers
-call s:HL('Identifier', s:blue[0])
-call s:HL('Function', s:yellow[0])
-
+call s:HL('Identifier', s:msd4)
+call s:HL('Function', s:msd8)
 " Generic Statements
-call s:HL('Statement', s:red[0])
-call s:HL('Conditional', s:red[1])
-call s:HL('Repeat', s:red[1])
-call s:HL('Label', s:red[1])
-call s:HL('Operator' , s:yellow[1])
-call s:HL('Keyword', s:red[1])
-
+call s:HL('Statement', s:msd9)
+call s:HL('Conditional', s:msd9)
+call s:HL('Repeat', s:msd9)
+call s:HL('Label', s:msd9)
+call s:HL('Operator' , s:msd5)
+call s:HL('Keyword', s:msd9)
 " Generic Pre-processors
-call s:HL('PreProc', s:magenta[0])
-call s:HL('Include', s:magenta[0])
+call s:HL('PreProc', s:msd10)
+call s:HL('Include', s:msd10)
 hi! link Define Include
-call s:HL('Macro', s:yellow[0])
+call s:HL('Macro', s:msd10)
 hi! link PreCondit Include
-
 " Generic Types
-call s:HL('Type', s:cyan[1])
-call s:HL('StorageClass', s:blue[1])
-call s:HL('Structure', s:blue[1])
-
+call s:HL('Type', s:msd7)
+call s:HL('StorageClass', s:msd7)
+call s:HL('Structure', s:msd7)
+call s:HL('Typedef', s:msd7)
 " Generic Specials
-call s:HL('Special', s:yellow[1])
-call s:HL('SpecialChar', s:yellow[1])
-call s:HL('Delimiter', s:orange[0])
-
+call s:HL('Special', s:msd13)
+call s:HL('SpecialChar', s:msd13)
+call s:HL('Tag', s:msd4)
+call s:HL('Delimiter', s:msd6)
+call s:HL('SpecialComment',s:msd8)
+call s:HL('Debug', s:msd6)
 " Other Generics
-call s:HL('Underlined', s:cyan[1], s:none, s:underline)
-
-call s:HL('Error', s:white[1], s:red[1], s:bold)
-
-call s:HL('Todo', s:contrast_fg, s:yellow[1], s:bold)
+call s:HL('Underlined', s:msd10, s:none, s:underline)
+call s:HL('Error', s:msd4, s:msd11, s:bold)
+call s:HL('Todo', s:msd13, s:none, s:bold)
 
 " }}}
 
 " Language Specific
 " Haskell: {{{
 
-call s:HL('hsDelimiter', s:orange[0])
+"call s:HL('hsDelimiter', s:orange[0])
 " call s:HL('ConId', s:green[1])
 " call s:HL('VarId', s:cyan[1])
-call s:HL('hsVarSym', s:magenta[1])
+"call s:HL('hsVarSym', s:magenta[1])
 
 " }}}
 " Rust: {{{
 
-call s:HL('rustIdentifier', s:green[1])
-call s:HL('rustStructure', s:blue[1])
-call s:HL('rustFuncCall', s:blue[0])
-call s:HL('rustOperator', s:yellow[1])
+"call s:HL('rustIdentifier', s:green[1])
+"call s:HL('rustStructure', s:blue[1])
+"call s:HL('rustFuncCall', s:blue[0])
+"call s:HL('rustOperator', s:yellow[1])
 "call s:HL('rustPubScope', s:orange[0])
 "call s:HL('rustExternCrateString', s:yellow[0])
-call s:HL('rustDerive', s:yellow[1])
+"call s:HL('rustDerive', s:yellow[1])
 "call s:HL('rustCommentBlock', s:yellow[0])
 "call s:HL('rustGenericRegion', s:green[1])
-call s:HL('rustStorage', s:magenta[1])
-call s:HL('rustType', s:cyan[1])
-call s:HL('rustTrait', s:cyan[0])
-call s:HL('rustAttribute', s:magenta[0])
+"call s:HL('rustStorage', s:magenta[1])
+"call s:HL('rustType', s:cyan[1])
+"call s:HL('rustTrait', s:cyan[0])
+"call s:HL('rustAttribute', s:magenta[0])
 
 " }}}
 " Markdown: {{{
 
-call s:HL('markdownH1', s:red[1], s:none, s:bold)
-call s:HL('markdownH2', s:yellow[0], s:none, s:bold)
-call s:HL('markdownH3', s:yellow[1], s:none, s:bold)
-call s:HL('markdownH4', s:green[1], s:none, s:bold)
-call s:HL('markdownH5', s:blue[1], s:none, s:bold)
-call s:HL('markdownH6', s:magenta[1], s:none, s:bold)
+"call s:HL('markdownH1', s:red[1], s:none, s:bold)
+"call s:HL('markdownH2', s:yellow[0], s:none, s:bold)
+"call s:HL('markdownH3', s:yellow[1], s:none, s:bold)
+"call s:HL('markdownH4', s:green[1], s:none, s:bold)
+"call s:HL('markdownH5', s:blue[1], s:none, s:bold)
+"call s:HL('markdownH6', s:magenta[1], s:none, s:bold)
 
-call s:HL('markdownBlockQuote',s:green[1], s:none, s:italic)
-call s:HL('markdownCodeBlock', s:blue[0])
+"call s:HL('markdownBlockQuote',s:green[1], s:none, s:italic)
+"call s:HL('markdownCodeBlock', s:blue[0])
 
-call s:HL('markdownListMarker', s:green[1])
-call s:HL('markdownRule', s:yellow[1])
+"call s:HL('markdownListMarker', s:green[1])
+"call s:HL('markdownRule', s:yellow[1])
 
-call s:HL('markdownFootnote', s:cyan[1])
-call s:HL('markdownFootnoteDefinition', s:green[1])
+"call s:HL('markdownFootnote', s:cyan[1])
+"call s:HL('markdownFootnoteDefinition', s:green[1])
 
-call s:HL('markdownLinkText', s:cyan[1], s:none, s:underline)
+"call s:HL('markdownLinkText', s:cyan[1], s:none, s:underline)
 
 " Don't work? Is this Heading IDs?
 "call s:HL('markdownIdDeclaration', s:cyan[0], s:none)
 "call s:HL('markdownId', s:orange[1])
 
-call s:HL('markdownUrl', s:blue[1], s:none)
-hi! link markdownUrlTitle String
-hi! link markdownUrlTitleDelimiter markdownUrlTitle
+"call s:HL('markdownUrl', s:blue[1], s:none)
+"hi! link markdownUrlTitle String
+"hi! link markdownUrlTitleDelimiter markdownUrlTitle
 
-call s:HL('markdownItalic', s:fg, s:none, s:italic)
-call s:HL('markdownItalicDelimiter', s:white[0])
-call s:HL('markdownBold', s:fg, s:none, s:bold)
-hi! link markdownBoldDelimiter markdownItalicDelimiter
-call s:HL('markdownBoldItalic', s:fg, s:none, s:bold . s:italic)
-hi! link markdownBoldItalicDelimiter markdownItalicDelimiter
-call s:HL('markdownStrike', s:black[1])
-hi! link markdownStrikeDelimiter markdownItalicDelimiter
-call s:HL('markdownCodeDelimiter', s:blue[1])
+"call s:HL('markdownItalic', s:fg, s:none, s:italic)
+"call s:HL('markdownItalicDelimiter', s:white[0])
+"call s:HL('markdownBold', s:fg, s:none, s:bold)
+"hi! link markdownBoldDelimiter markdownItalicDelimiter
+"call s:HL('markdownBoldItalic', s:fg, s:none, s:bold . s:italic)
+"hi! link markdownBoldItalicDelimiter markdownItalicDelimiter
+"call s:HL('markdownStrike', s:black[1])
+"hi! link markdownStrikeDelimiter markdownItalicDelimiter
+"call s:HL('markdownCodeDelimiter', s:blue[1])
 
 " }}}
 " CandCpp: {{{

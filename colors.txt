@@ -1,3 +1,37 @@
+Version 2 Palette
+=================
+
+A color palette with some inspiration from the Nord color theme.
+
+Open Midnight Sea
+msd0:  #01040d
+msd1:  #060b1a
+msd2:  #0f1426
+msd3:  #1a2033
+
+Icy Moon Light
+msd4:  #e6ecff
+msd5:  #b8c3e6
+msd6:  #8f9ecc
+
+Midnight Seafoam
+msd7:  #0ab6bf
+msd8:  #0a9ebf
+msd9:  #1380bf
+msd10: #1369bf
+
+Dragon's Flair
+msd11: #bf2626
+msd12: #cc581f
+msd13: #ccaa00
+msd14: #1e8013
+msd15: #a611a6
+
+Version 1 Palette
+=================
+
+The original color palette of the Midnight Sea Dragon theme.
+
 dark0 = 01040d
 dark1 = 050a1a
 dark2 = 0b1226
@@ -34,13 +68,3 @@ light-blue =    "#3399ff"
 light-purple =  "#ff27ff"
 light-cyan =    "#26f8fe"
 light-white =   "#f3ffff"
-
-token template:
-{
-	"scope": [
-
-	],
-	"settings": {
-		"foreground": "#",
-	},
-},
