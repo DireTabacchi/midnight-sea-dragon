@@ -34,10 +34,10 @@ let s:msd5 =  ["#b8c3e6", 0]
 let s:msd6 =  ["#e6ecff", 0]
 
 " Midnight Seafoam
-let s:msd7 =  ["#0ab6bf", 0]
-let s:msd8 =  ["#0a9ebf", 0]
-let s:msd9 =  ["#1380bf", 0]
-let s:msd10 = ["#1369bf", 0]
+let s:msd7 =  ["#0abfa1", 0]
+let s:msd8 =  ["#0ab0bf", 0]
+let s:msd9 =  ["#1386bf", 0]
+let s:msd10 = ["#135bbf", 0]
 
 " Dragon's Flair
 let s:msd11 = ["#bf2626", 0]
