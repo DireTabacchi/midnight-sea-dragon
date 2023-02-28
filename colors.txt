@@ -1,4 +1,4 @@
-Version 2 Palette
+Version 2 Palette - 2023 02 28
 =================
 
 A color palette with some inspiration from the Nord color theme.
@@ -15,10 +15,10 @@ msd5:  #b8c3e6
 msd6:  #8f9ecc
 
 Midnight Seafoam
-msd7:  #0ab6bf
-msd8:  #0a9ebf
-msd9:  #1380bf
-msd10: #1369bf
+msd7:  #0abfa1
+msd8:  #0ab0bf
+msd9:  #1386bf
+msd10: #135bbf
 
 Dragon's Flair
 msd11: #bf2626
@@ -30,7 +30,8 @@ msd15: #a611a6
 Version 1 Palette
 =================
 
-The original color palette of the Midnight Sea Dragon theme.
+The original color palette of the Midnight Sea Dragon theme,
+the creation of which inspired by the Ayu Theme.
 
 dark0 = 01040d
 dark1 = 050a1a
