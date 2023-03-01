@@ -2,7 +2,7 @@
 " Name:			Midnight Sea Dragon
 " Author:		DireTabacchi
 " Maintainer:	DireTabacchi
-" Last Change:	2023 02 28
+" Last Change:	2023 03 01
 " \------------------------------------------------------------------/
 
 " Initialization: {{{
@@ -245,58 +245,48 @@ call s:HL('Todo', s:msd13, s:none, s:bold)
 " }}}
 " Rust: {{{
 
-"call s:HL('rustIdentifier', s:green[1])
-"call s:HL('rustStructure', s:blue[1])
-"call s:HL('rustFuncCall', s:blue[0])
-"call s:HL('rustOperator', s:yellow[1])
-"call s:HL('rustPubScope', s:orange[0])
-"call s:HL('rustExternCrateString', s:yellow[0])
-"call s:HL('rustDerive', s:yellow[1])
-"call s:HL('rustCommentBlock', s:yellow[0])
-"call s:HL('rustGenericRegion', s:green[1])
-"call s:HL('rustStorage', s:magenta[1])
-"call s:HL('rustType', s:cyan[1])
-"call s:HL('rustTrait', s:cyan[0])
-"call s:HL('rustAttribute', s:magenta[0])
+call s:HL('rustDerive', s:msd15)
+call s:HL('rustSigil', s:msd12)
+call s:HL('rustQuestionMark', s:msd12)
+call s:HL('rustAttribute', s:msd10)
+call s:HL('rustStructure', s:msd9)
+call s:HL('rustStorage', s:msd9)
+call s:HL('rustFuncCall', s:msd8)
+call s:HL('rustIdentifier', s:msd7)
+call s:HL('rustType', s:msd7)
+call s:HL('rustTrait', s:msd7)
+call s:HL('rustOperator', s:msd4)
 
 " }}}
 " Markdown: {{{
 
-"call s:HL('markdownH1', s:red[1], s:none, s:bold)
-"call s:HL('markdownH2', s:yellow[0], s:none, s:bold)
-"call s:HL('markdownH3', s:yellow[1], s:none, s:bold)
-"call s:HL('markdownH4', s:green[1], s:none, s:bold)
-"call s:HL('markdownH5', s:blue[1], s:none, s:bold)
-"call s:HL('markdownH6', s:magenta[1], s:none, s:bold)
+call s:HL('markdownH1', s:msd11, s:none, s:bold)
+call s:HL('markdownH2', s:msd12, s:none, s:bold)
+call s:HL('markdownH3', s:msd13, s:none, s:bold)
+call s:HL('markdownH4', s:msd14, s:none, s:bold)
+call s:HL('markdownH5', s:msd10, s:none, s:bold)
+call s:HL('markdownH6', s:msd15, s:none, s:bold)
 
-"call s:HL('markdownBlockQuote',s:green[1], s:none, s:italic)
-"call s:HL('markdownCodeBlock', s:blue[0])
+call s:HL('markdownItalic', s:msd7, s:none, s:italic)
+call s:HL('markdownItalicDelimiter', s:msd4, s:none, s:italic)
+call s:HL('markdownBold', s:msd9, s:none, s:bold)
+hi! link markdownBoldDelimiter markdownItalicDelimiter
+call s:HL('markdownBoldItalic', s:msd8, s:none, s:bold . s:italic)
+hi! link markdownBoldItalicDelimiter markdownItalicDelimiter
 
-"call s:HL('markdownListMarker', s:green[1])
-"call s:HL('markdownRule', s:yellow[1])
+call s:HL('markdownBlockQuote',s:msd9, s:none, s:italic)
+call s:HL('markdownCode', s:msd8)
+call s:HL('markdownCodeBlock', s:msd8)
+call s:HL('markdownCodeDelimiter', s:msd4)
+call s:HL('markdownListMarker', s:msd7)
 
-"call s:HL('markdownFootnote', s:cyan[1])
-"call s:HL('markdownFootnoteDefinition', s:green[1])
+call s:HL('markdownRule', s:msd4)
+call s:HL('markdownHeadingRule', s:msd4)
 
-"call s:HL('markdownLinkText', s:cyan[1], s:none, s:underline)
-
-" Don't work? Is this Heading IDs?
-"call s:HL('markdownIdDeclaration', s:cyan[0], s:none)
-"call s:HL('markdownId', s:orange[1])
-
-"call s:HL('markdownUrl', s:blue[1], s:none)
-"hi! link markdownUrlTitle String
-"hi! link markdownUrlTitleDelimiter markdownUrlTitle
-
-"call s:HL('markdownItalic', s:fg, s:none, s:italic)
-"call s:HL('markdownItalicDelimiter', s:white[0])
-"call s:HL('markdownBold', s:fg, s:none, s:bold)
-"hi! link markdownBoldDelimiter markdownItalicDelimiter
-"call s:HL('markdownBoldItalic', s:fg, s:none, s:bold . s:italic)
-"hi! link markdownBoldItalicDelimiter markdownItalicDelimiter
-"call s:HL('markdownStrike', s:black[1])
-"hi! link markdownStrikeDelimiter markdownItalicDelimiter
-"call s:HL('markdownCodeDelimiter', s:blue[1])
+call s:HL('markdownLinkText', s:msd10, s:none, s:underline)
+call s:HL('markdownUrl', s:msd7, s:none)
+hi! link markdownUrlTitle String
+hi! link markdownUrlTitleDelimiter markdownUrlTitle
 
 " }}}
 " CandCpp: {{{
