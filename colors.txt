@@ -10,9 +10,9 @@ msd2:  #0f1426
 msd3:  #1a2033
 
 Icy Moon Light
-msd4:  #e6ecff
+msd4:  #8f9ecc
 msd5:  #b8c3e6
-msd6:  #8f9ecc
+msd6:  #e6ecff
 
 Midnight Seafoam
 msd7:  #0abfa1

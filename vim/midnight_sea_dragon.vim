@@ -2,7 +2,7 @@
 " Name:			Midnight Sea Dragon
 " Author:		DireTabacchi
 " Maintainer:	DireTabacchi
-" Last Change:	2023 03 01
+" Last Change:	2023 03 05
 " \------------------------------------------------------------------/
 
 " Initialization: {{{
@@ -24,9 +24,9 @@ let g:colors_name="midnight sea dragon"
 " TODO: update xterm-256 colors
 " Open Midnight Sea
 let s:msd0 =  ["#01040d", 0]
-let s:msd1 =  ["#060b1a", 0]
-let s:msd2 =  ["#0f1426", 0]
-let s:msd3 =  ["#1a2033", 0]
+let s:msd1 =  ["#091026", 0]
+let s:msd2 =  ["#182140", 0]
+let s:msd3 =  ["#2f3959", 0]
 
 " Icy Moon Light
 let s:msd4 =  ["#8f9ecc", 0]
