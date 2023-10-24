@@ -43,9 +43,8 @@ let s:msd10 = ["#135bbf", 0]
 let s:msd11 = ["#bf2626", 0]
 let s:msd12 = ["#cc581f", 0]
 let s:msd13 = ["#ccaa00", 0]
-"let s:msd14 = ["#1e8013", 0]
-let s:msd14 = ["#4DBF43", 0]
-let s:msd15 = ["#a611a6", 0]
+let s:msd14 = ["#4dbf43", 0]
+let s:msd15 = ["#e622e6", 0]
 
 " }}}
 " Setup Emphasis: {{{
