@@ -2,7 +2,7 @@
 " Name:			Midnight Sea Dragon
 " Author:		DireTabacchi
 " Maintainer:	DireTabacchi
-" Last Change:	2023 03 05
+" Last Change:	2023 10 24
 " \------------------------------------------------------------------/
 
 " Initialization: {{{
@@ -43,7 +43,8 @@ let s:msd10 = ["#135bbf", 0]
 let s:msd11 = ["#bf2626", 0]
 let s:msd12 = ["#cc581f", 0]
 let s:msd13 = ["#ccaa00", 0]
-let s:msd14 = ["#1e8013", 0]
+"let s:msd14 = ["#1e8013", 0]
+let s:msd14 = ["#4DBF43", 0]
 let s:msd15 = ["#a611a6", 0]
 
 " }}}
@@ -207,7 +208,7 @@ call s:HL('Statement', s:msd9)
 call s:HL('Conditional', s:msd9)
 call s:HL('Repeat', s:msd9)
 call s:HL('Label', s:msd9)
-call s:HL('Operator' , s:msd5)
+call s:HL('Operator' , s:msd12)
 call s:HL('Keyword', s:msd9)
 " Generic Pre-processors
 call s:HL('PreProc', s:msd10)
